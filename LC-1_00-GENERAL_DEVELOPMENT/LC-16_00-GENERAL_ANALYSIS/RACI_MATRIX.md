@@ -112,10 +112,10 @@ LC-16_00-GENERAL_ANALYSIS/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-16_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-16_5700-WINGS_CFD-CRUISE_V1R0.dat`
-- **Example:** `LC-16_5100-FUSELAGE_FEM-STATIC_V2R1.nas`
-- **Example:** `LC-16_9500-NN-SYSTEMS_DIGITAL-TWIN-NN-FCS_V1R0.mdl`
+- **Format:** <span style="color:#0066cc">`LC-16`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-16`</span>`_`<span style="color:#cc6600">`5700`</span>`-`<span style="color:#666666">`WINGS`</span>`_`<span style="color:#009900">`CFD-CRUISE`</span>`_`<span style="color:#990099">`V1R0`</span>`.dat`
+- **Example:** <span style="color:#0066cc">`LC-16`</span>`_`<span style="color:#cc6600">`5100`</span>`-`<span style="color:#666666">`FUSELAGE`</span>`_`<span style="color:#009900">`FEM-STATIC`</span>`_`<span style="color:#990099">`V2R1`</span>`.nas`
+- **Example:** <span style="color:#0066cc">`LC-16`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`DIGITAL-TWIN-NN-FCS`</span>`_`<span style="color:#990099">`V1R0`</span>`.mdl`
 
 ---
 
@@ -137,14 +137,14 @@ LC-16_00-GENERAL_ANALYSIS/
 ## Integration Points
 
 ### Upstream (Inputs)
-- **LC-14 Design:** CAD models for CFD and FEM
-- **LC-13 Requirements:** Performance and structural requirements
-- **LC-12 Safety:** Load cases and failure scenarios
+- **LC-14:** CAD models for CFD and FEM
+- **LC-13:** Performance and structural requirements
+- **LC-12:** Load cases and failure scenarios
 
 ### Downstream (Outputs)
-- **LC-17 V&V:** Analysis results form verification evidence
-- **LC-22 Test Campaign:** Analysis predictions validated by test
-- **LC-14 Design:** Analysis feedback drives design updates
+- **LC-17:** Analysis results form verification evidence
+- **LC-22:** Analysis predictions validated by test
+- **LC-14:** Analysis feedback drives design updates
 
 ### Lateral (Parallel)
 - **MBSE:** Analysis models synchronized with system models

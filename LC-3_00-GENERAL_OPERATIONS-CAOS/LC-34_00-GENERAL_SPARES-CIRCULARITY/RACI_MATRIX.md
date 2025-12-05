@@ -71,10 +71,10 @@ LC-34_00-GENERAL_SPARES-CIRCULARITY/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-34_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-34_00-GENERAL_SPARES-CATALOGUE-MASTER_V1R0.xlsx`
+- **Format:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`SPARES-CATALOGUE-MASTER`</span>`_`<span style="color:#990099">`V1R0`</span>`.xlsx`
 - **Example:** `LC-34_8500-GREEN-E-BATTERY_DPP-BATTERY-PACK-001_V1R0.json`
-- **Example:** `LC-34_00-GENERAL_CIRCULARITY-PROGRAM_V1R0.pdf`
+- **Example:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CIRCULARITY-PROGRAM`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 
 ---
 

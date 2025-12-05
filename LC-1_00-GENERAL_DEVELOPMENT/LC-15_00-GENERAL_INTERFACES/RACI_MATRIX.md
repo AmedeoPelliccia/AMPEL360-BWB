@@ -1,7 +1,7 @@
-# LC-1.5 Interfaces & Constituency Assemblies — RACI Matrix
+# LC-15 Interfaces & Constituency Assemblies — RACI Matrix
 
 ## Purpose
-This document defines the **Responsible, Accountable, Consulted, and Informed (RACI)** roles for all artefacts and activities within LC-1.5 Interfaces & Constituency Assemblies.
+This document defines the **Responsible, Accountable, Consulted, and Informed (RACI)** roles for all artefacts and activities within LC-15 Interfaces & Constituency Assemblies.
 
 ---
 
@@ -88,7 +88,7 @@ This document defines the **Responsible, Accountable, Consulted, and Informed (R
 
 ### Folder Structure
 ```
-LC-1.5_Interfaces_Constituency_Assemblies/
+LC-15_00-GENERAL_INTERFACES/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── ICD_Interface_Control_Documents/
@@ -126,10 +126,10 @@ LC-1.5_Interfaces_Constituency_Assemblies/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-15_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-15_42-IMA_ICD-AFDX-NETWORK_V1R0.pdf`
-- **Example:** `LC-15_00-GENERAL_ASSEMBLY-TREE-AIRCRAFT_V2R1.xlsx`
-- **Example:** `LC-15_95-NN-SYSTEMS_ICD-NN-BUS_V1R0.pdf`
+- **Format:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`42`</span>`-`<span style="color:#666666">`IMA`</span>`_`<span style="color:#009900">`ICD-AFDX-NETWORK`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`ASSEMBLY-TREE-AIRCRAFT`</span>`_`<span style="color:#990099">`V2R1`</span>`.xlsx`
+- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`95`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`ICD-NN-BUS`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 
 ---
 
@@ -157,14 +157,14 @@ LC-1.5_Interfaces_Constituency_Assemblies/
 ## Integration Points
 
 ### Upstream (Inputs)
-- **LC-1.3:** Requirements define interface needs
-- **LC-1.4:** Design defines physical and logical interfaces
+- **LC-13:** Requirements define interface needs
+- **LC-14:** Design defines physical and logical interfaces
 
 ### Downstream (Outputs)
-- **LC-1.6 Analysis:** Interface models for integrated simulations
-- **LC-1.7 V&V:** Interface testing and validation
-- **LC-2.1 Prototyping:** Installation rules guide assembly
-- **LC-3.2 MRO:** Installation rules guide maintenance
+- **LC-16 Analysis:** Interface models for integrated simulations
+- **LC-17 V&V:** Interface testing and validation
+- **LC-21 Prototyping:** Installation rules guide assembly
+- **LC-32 MRO:** Installation rules guide maintenance
 
 ### Lateral (Parallel)
 - **MBSE:** Interface models in SysML

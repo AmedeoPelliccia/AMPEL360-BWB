@@ -115,10 +115,10 @@ LC-22_00-GENERAL_TEST-CERTIFICATION/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-22_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-22_5700-WINGS_TEST-REPORT-STATIC_V1R0.pdf`
+- **Format:** <span style="color:#0066cc">`LC-22`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-22`</span>`_`<span style="color:#cc6600">`5700`</span>`-`<span style="color:#666666">`WINGS`</span>`_`<span style="color:#009900">`TEST-REPORT-STATIC`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 - **Example:** `LC-22_00-GENERAL_FLIGHT-TEST-CARD-001_V1R0.pdf`
-- **Example:** `LC-22_00-GENERAL_TYPE-CERT-APPLICATION_V2R1.pdf`
+- **Example:** <span style="color:#0066cc">`LC-22`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`TYPE-CERT-APPLICATION`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
 
 ---
 

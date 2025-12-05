@@ -70,9 +70,9 @@ LC-32_00-GENERAL_MRO/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-32_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-32_2100-AIR-CONDITIONING_MROPROC-ECS-SENSOR_V1R0.pdf`
-- **Example:** `LC-32_00-GENERAL_RELIABILITY-REPORT_V1R0.pdf`
+- **Format:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`2100`</span>`-`<span style="color:#666666">`AIR-CONDITIONING`</span>`_`<span style="color:#009900">`MROPROC-ECS-SENSOR`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`RELIABILITY-REPORT`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 
 ---
 

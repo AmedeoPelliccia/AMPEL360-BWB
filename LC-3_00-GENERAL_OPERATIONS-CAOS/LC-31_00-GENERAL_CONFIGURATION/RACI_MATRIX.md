@@ -69,8 +69,8 @@ LC-31_00-GENERAL_CONFIGURATION/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-31_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-31_00-GENERAL_CONFIG-BASELINE-PROD_V5R2.pdf`
+- **Format:** <span style="color:#0066cc">`LC-31`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-31`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CONFIG-BASELINE-PROD`</span>`_`<span style="color:#990099">`V5R2`</span>`.pdf`
 - **Example:** `LC-31_2700-FLIGHT-CONTROLS_ECO-12345_V1R0.pdf`
 
 ---

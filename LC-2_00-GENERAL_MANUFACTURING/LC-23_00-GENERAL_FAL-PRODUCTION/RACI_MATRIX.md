@@ -85,9 +85,9 @@ LC-23_00-GENERAL_FAL-PRODUCTION/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-23_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-23_00-GENERAL_BOM-MASTER_V1R0.xlsx`
-- **Example:** `LC-23_00-GENERAL_FAL-LAYOUT_V2R1.pdf`
+- **Format:** <span style="color:#0066cc">`LC-23`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-23`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`BOM-MASTER`</span>`_`<span style="color:#990099">`V1R0`</span>`.xlsx`
+- **Example:** <span style="color:#0066cc">`LC-23`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`FAL-LAYOUT`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
 
 ---
 

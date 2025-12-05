@@ -1,7 +1,7 @@
-# LC-1.4 Design Engineering — RACI Matrix
+# LC-14 Design Engineering — RACI Matrix
 
 ## Purpose
-This document defines the **Responsible, Accountable, Consulted, and Informed (RACI)** roles for all artefacts and activities within LC-1.4 Design Engineering.
+This document defines the **Responsible, Accountable, Consulted, and Informed (RACI)** roles for all artefacts and activities within LC-14 Design Engineering.
 
 ---
 
@@ -31,8 +31,8 @@ This document defines the **Responsible, Accountable, Consulted, and Informed (R
 - Define system architecture and topology
 - Establish preliminary sizing and layout
 - Identify critical design drivers
-- Validate against requirements (LC-1.3)
-- Coordinate with safety analysis (LC-1.2)
+- Validate against requirements (LC-13)
+- Coordinate with safety analysis (LC-12)
 
 ---
 
@@ -90,17 +90,17 @@ This document defines the **Responsible, Accountable, Consulted, and Informed (R
 
 ### Folder Structure
 ```
-LC-1.4_Detailed_Design/
+LC-14_00-GENERAL_DESIGN/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Preliminary_Design/
-│   ├── System_Architecture_Diagrams/
-│   ├── Concept_Layouts/
-│   └── Sizing_Studies/
+│   ├── LC-14_00-GENERAL_SYSTEM-ARCHITECTURE-DIAGRAMS_V*.pdf
+│   ├── LC-14_00-GENERAL_CONCEPT-LAYOUTS_V*.pdf
+│   └── LC-14_00-GENERAL_SIZING-STUDIES_V*.xlsx
 ├── CAD_Models/
 │   ├── Master_Geometry/
-│   │   ├── BWB_Fuselage_V*.catpart
-│   │   ├── Wing_Assembly_V*.catproduct
+│   │   ├── LC-14_5100-FUSELAGE_BWB-FUSELAGE_V*.catpart
+│   │   ├── LC-14_5700-WINGS_WING-ASSEMBLY_V*.catproduct
 │   │   └── [Other major assemblies...]
 │   ├── Subsystems_by_ATA/
 │   │   ├── ATA_21_Air_Conditioning/
@@ -112,22 +112,22 @@ LC-1.4_Detailed_Design/
 │   │   └── [Other ATA chapters...]
 │   └── 2D_Drawings/
 ├── Schematics/
-│   ├── Electrical_Diagrams/
-│   ├── Hydraulic_Pneumatic_Diagrams/
-│   ├── Control_Logic_Diagrams/
-│   └── Data_Bus_Architecture/
+│   ├── LC-14_2400-ELECTRICAL-POWER_ELECTRICAL-DIAGRAMS_V*.pdf
+│   ├── LC-14_2900-HYDRAULIC-POWER_HYD-PNEUMATIC-DIAGRAMS_V*.pdf
+│   ├── LC-14_2700-FLIGHT-CONTROLS_CONTROL-LOGIC-DIAGRAMS_V*.pdf
+│   └── LC-14_4200-IMA_DATA-BUS-ARCHITECTURE_V*.pdf
 └── ATA_Design_Documentation/
-    ├── ATA_21_Design_Description_V*.pdf
-    ├── ATA_27_Design_Description_V*.pdf
-    ├── ATA_28H_Design_Description_V*.pdf
+    ├── LC-14_2100-AIR-CONDITIONING_DESIGN-DESCRIPTION_V*.pdf
+    ├── LC-14_2700-FLIGHT-CONTROLS_DESIGN-DESCRIPTION_V*.pdf
+    ├── LC-14_2800-HYDROGEN_DESIGN-DESCRIPTION_V*.pdf
     └── [Other ATA chapters...]
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-14_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-14_27-FLIGHT-CONTROLS_PRELIM-DESIGN_V1R0.pdf`
-- **Example:** `LC-14_28H-HYDROGEN_CAD-TANK-ASSY_V2R1.catproduct`
-- **Example:** `LC-14_95-NN-SYSTEMS_SCHEMATIC-NN-FCS_V1R0.pdf`
+- **Format:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`27`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`PRELIM-DESIGN`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`2800`</span>`-`<span style="color:#666666">`HYDROGEN`</span>`_`<span style="color:#009900">`CAD-TANK-ASSY`</span>`_`<span style="color:#990099">`V2R1`</span>`.catproduct`
+- **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`SCHEMATIC-NN-FCS`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 
 ---
 
@@ -155,15 +155,15 @@ LC-1.4_Detailed_Design/
 ## Integration Points
 
 ### Upstream (Inputs)
-- **LC-1.1:** Concept baselines and configuration
-- **LC-1.2:** Safety-driven design constraints
-- **LC-1.3:** Detailed system requirements
+- **LC-11:** Concept baselines and configuration
+- **LC-12:** Safety-driven design constraints
+- **LC-13:** Detailed system requirements
 
 ### Downstream (Outputs)
-- **LC-1.5 Interfaces:** Design defines interface requirements
-- **LC-1.6 Analysis:** CAD models used for FEM, CFD analysis
-- **LC-1.7 V&V:** Design forms verification baseline
-- **LC-2.1 Prototyping:** CAD models drive manufacturing
+- **LC-15 Interfaces:** Design defines interface requirements
+- **LC-16 Analysis:** CAD models used for FEM, CFD analysis
+- **LC-17 V&V:** Design forms verification baseline
+- **LC-21 Prototyping:** CAD models drive manufacturing
 
 ### Lateral (Parallel)
 - **MBSE:** SysML models synchronized with CAD

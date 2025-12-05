@@ -114,10 +114,10 @@ LC-17_00-GENERAL_VERIFICATION/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-17_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-17_00-GENERAL_MASTER-TEST-PLAN_V1R0.pdf`
-- **Example:** `LC-17_2700-FLIGHT-CONTROLS_VNVREP-FCS_V2R1.pdf`
-- **Example:** `LC-17_9500-NN-SYSTEMS_CERT-EVIDENCE-NN_V1R0.pdf`
+- **Format:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`MASTER-TEST-PLAN`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`2700`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`VNVREP-FCS`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`CERT-EVIDENCE-NN`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 
 ---
 
@@ -139,14 +139,14 @@ LC-17_00-GENERAL_VERIFICATION/
 ## Integration Points
 
 ### Upstream (Inputs)
-- **LC-13 Requirements:** Requirements to be verified
-- **LC-14 Design:** Design baseline for verification
-- **LC-16 Analysis:** Analysis results to be validated
-- **LC-12 Safety:** Safety requirements and evidence needs
+- **LC-13:** Requirements to be verified
+- **LC-14:** Design baseline for verification
+- **LC-16:** Analysis results to be validated
+- **LC-12:** Safety requirements and evidence needs
 
 ### Downstream (Outputs)
-- **LC-22 Test Campaign:** V&V plans guide physical testing
-- **LC-32 MRO:** Verification evidence supports maintenance procedures
+- **LC-22:** V&V plans guide physical testing
+- **LC-32:** Verification evidence supports maintenance procedures
 - **Certification:** V&V evidence forms compliance demonstration
 
 ### Lateral (Parallel)

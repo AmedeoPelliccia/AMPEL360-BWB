@@ -70,8 +70,8 @@ LC-24_00-GENERAL_SUPPLY-CHAIN/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-24_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-24_8000-ELECTRIC-PROPULSION_SUPPLIER-PKG-MOTOR_V1R0.pdf`
+- **Format:** <span style="color:#0066cc">`LC-24`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-24`</span>`_`<span style="color:#cc6600">`8000`</span>`-`<span style="color:#666666">`ELECTRIC-PROPULSION`</span>`_`<span style="color:#009900">`SUPPLIER-PKG-MOTOR`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 
 ---
 

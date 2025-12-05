@@ -68,8 +68,8 @@ LC-33_00-GENERAL_CUSTOMER-SUPPORT/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-33_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-33_2700-FLIGHT-CONTROLS_IETP-FCS-MAINTENANCE_V1R0.xml`
+- **Format:** <span style="color:#0066cc">`LC-33`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-33`</span>`_`<span style="color:#cc6600">`2700`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`IETP-FCS-MAINTENANCE`</span>`_`<span style="color:#990099">`V1R0`</span>`.xml`
 - **Example:** `LC-33_00-GENERAL_SB-2025-001_V1R0.pdf`
 
 ---

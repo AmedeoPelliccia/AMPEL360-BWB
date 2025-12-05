@@ -89,7 +89,7 @@ LC-21_00-GENERAL_PROTOTYPING/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-21_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
+- **Format:** <span style="color:#0066cc">`LC-21`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
 - **Example:** `LC-21_5100-FUSELAGE_BUILD-INSTR-PROTO1_V1R0.pdf`
 - **Example:** `LC-21_00-GENERAL_PROTO1-CONFIG-BASELINE_V1R2.pdf`
 
