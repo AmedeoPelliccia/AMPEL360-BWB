@@ -32,14 +32,35 @@ Where:
 
 ## Directory Structure
 
-### 1. LC-11_00-GENERAL_Q100-CONCEPT-BASELINES/
-High-level aircraft concept definitions and baseline configurations.
+### Directory Overview
 
-**Contains:**
-- BWB configuration baseline documents
-- Aerodynamic sketches and preliminary designs
-- Volume and layout concept diagrams
-- Overall systems architecture concepts
+| UTCS Node | Directory Name | Focus | Primary Audience |
+|-----------|----------------|-------|------------------|
+| 0010 | LC-11_00-GENERAL_Q100-CONCEPT-BASELINES/ | Q100 aircraft concept baselines and preliminary designs | Chief engineers, concept designers, aero/structures leads, programme architecture |
+| 0011 | LC-11_00-GENERAL_Q100-MISSION-USECASES/ | Mission profiles, route scenarios, airline and airport use cases | Network planning, airline product teams, ops engineering, performance specialists |
+| 0012 | LC-11_00-GENERAL_Q100-CONFIGURATIONS/ | Q100 configuration options: aero layouts, cabin layouts, propulsion and energy architectures | Configuration management, cabin/product design, propulsion/energy architects |
+| 0013 | LC-11_00-GENERAL_Q100-PARAM-EXPLORATION/ | Parametric sweeps and design-space exploration | Performance & sizing engineers, aero/structures loads, energy & weight teams |
+| 0014 | LC-11_00-GENERAL_Q100-TRADE-STUDIES/ | Formal trade studies comparing alternative concepts/architectures | Architecture boards, decision forums, programme management, key domain leads |
+| 0015 | LC-11_00-GENERAL_Q100-CONSTRAINTS-ENVELOPES/ | Q100 constraints diagrams and envelopes | Performance engineers, loads & structures, weight & balance, safety & certification pre-studies |
+| 0016 | LC-11_00-GENERAL_Q100-REQ-SEED/ | Seed requirements extracted from concept work | Systems engineering, requirements engineering, certification & safety pre-studies |
+| 0017 | LC-11_00-GENERAL_Q100-RISK-RESEARCH/ | Early risk identification and exploratory risk notes | Programme risk owners, safety & certification, technology roadmapping, industrialization |
+| 0018 | LC-11_00-GENERAL_Q100-REVIEWS/ | Minutes, action logs, and decision records from concept reviews | Review boards, chief engineers, PMO, governance and partners |
+| — | LC-11_00-GENERAL_Q100-ARCHIVES/ | Archived snapshots of obsolete or superseded Q100 concept artefacts | All domains needing historical traceability and decision provenance |
+
+---
+
+### 0010 — LC-11_00-GENERAL_Q100-CONCEPT-BASELINES/
+**Aircraft Concept**
+
+Q100 aircraft concept baselines and preliminary designs (geometry, layout, capacity, performance-level sketches).
+
+**Primary Audience:**
+- Chief engineers, concept designers, aero/structures leads, programme architecture
+
+**Typical Artefacts:**
+- Concept notes, concept maps, baseline definition sheets
+- Early geometry snapshots, high-level sizing sheets
+- Design rationale logs
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-CONCEPT-BL-OVERVIEW_V1R0.md`
@@ -48,14 +69,18 @@ High-level aircraft concept definitions and baseline configurations.
 
 ---
 
-### 2. LC-11_00-GENERAL_Q100-MISSION-USECASES/
-Mission definitions and operational use case scenarios.
+### 0011 — LC-11_00-GENERAL_Q100-MISSION-USECASES/
+**Mission & Use Cases**
 
-**Contains:**
-- Regional and long-range mission profiles
-- Airline operational scenarios
-- Customer requirements and use cases
-- Market analysis and target segments
+Mission profiles, route scenarios, airline and airport use cases for Q100 operations.
+
+**Primary Audience:**
+- Network planning, airline product teams, ops engineering, performance specialists
+
+**Typical Artefacts:**
+- Route scenario descriptions, mission profiles
+- Turnaround concepts, airport compatibility notes
+- Passenger and cargo use cases
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-MISSION-REGIONAL_V1R0.md`
@@ -63,14 +88,18 @@ Mission definitions and operational use case scenarios.
 
 ---
 
-### 3. LC-11_00-GENERAL_Q100-CONFIGURATIONS/
-Detailed configuration studies for aircraft subsystems.
+### 0012 — LC-11_00-GENERAL_Q100-CONFIGURATIONS/
+**Configurations**
 
-**Contains:**
-- BWB configuration variants
-- Cabin layout concepts (e.g., 2-3-2 seating)
-- Energy architecture alternatives
-- Integration concepts
+Q100 configuration options: aero layouts, cabin layouts, propulsion and energy architectures.
+
+**Primary Audience:**
+- Configuration management, cabin/product design, propulsion/energy architects
+
+**Typical Artefacts:**
+- Configuration matrices, cabin layout sketches
+- Propulsion/energy architecture variants
+- Configuration comparison notes
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-CONFIG-BWB-BASELINE_V1R0.md`
@@ -79,14 +108,18 @@ Detailed configuration studies for aircraft subsystems.
 
 ---
 
-### 4. LC-11_00-GENERAL_Q100-PARAM-EXPLORATION/
-Parametric studies exploring design space and sensitivities.
+### 0013 — LC-11_00-GENERAL_Q100-PARAM-EXPLORATION/
+**Parametric Exploration**
 
-**Contains:**
-- Wing geometry parameter sweeps
-- Mass distribution studies
-- Tank sizing optimization
-- Performance sensitivity analyses
+Parametric sweeps and design-space exploration (geometry, mass, performance, energy sizing).
+
+**Primary Audience:**
+- Performance & sizing engineers, aero/structures loads, energy & weight teams
+
+**Typical Artefacts:**
+- Parametric studies, sweep scripts references
+- Design-of-experiments summaries, design-space maps
+- Sensitivity plots (referenced, not stored as binaries)
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-PARAM-WING-SWEEP_V1R0.md`
@@ -95,14 +128,18 @@ Parametric studies exploring design space and sensitivities.
 
 ---
 
-### 5. LC-11_00-GENERAL_Q100-TRADE-STUDIES/
-Formal trade studies comparing design alternatives.
+### 0014 — LC-11_00-GENERAL_Q100-TRADE-STUDIES/
+**Trade Studies**
 
-**Contains:**
-- Propulsion architecture trades
-- Hydrogen/battery ratio optimization
-- Control authority allocation studies
-- Systems architecture comparisons
+Formal trade studies comparing alternative concepts/architectures (BWB variants, H₂/battery ratios, systems options).
+
+**Primary Audience:**
+- Architecture boards, decision forums, programme management, key domain leads
+
+**Typical Artefacts:**
+- Trade study templates, option comparison tables
+- Evaluation criteria, decision recommendation documents
+- Trade conclusion records
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-TRADE-PROP-ARCH_V1R0.md`
@@ -111,14 +148,18 @@ Formal trade studies comparing design alternatives.
 
 ---
 
-### 6. LC-11_00-GENERAL_Q100-CONSTRAINTS-ENVELOPES/
-Design constraints and operational envelopes.
+### 0015 — LC-11_00-GENERAL_Q100-CONSTRAINTS-ENVELOPES/
+**Constraints & Envelopes**
 
-**Contains:**
-- Takeoff and landing constraints
-- Center of gravity envelope definitions
-- Energy budget constraints
-- Performance boundary definitions
+Q100 constraints diagrams and envelopes (field performance, payload–range, CG, energy, structural limits).
+
+**Primary Audience:**
+- Performance engineers, loads & structures, weight & balance, safety & certification pre-studies
+
+**Typical Artefacts:**
+- Constraints diagrams, payload–range maps
+- CG envelopes summaries, structural/energy limit envelopes
+- Associated assumptions logs
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-CONSTR-TAKEOFF_V1R0.md`
@@ -127,14 +168,18 @@ Design constraints and operational envelopes.
 
 ---
 
-### 7. LC-11_00-GENERAL_Q100-REQ-SEED/
-Initial requirements seed for downstream requirements engineering.
+### 0016 — LC-11_00-GENERAL_Q100-REQ-SEED/
+**Requirements Seed**
 
-**Contains:**
-- Airframe requirements seed
-- Propulsion system requirements
-- Environmental Control System (ECS) requirements
-- Preliminary specifications
+Seed requirements extracted from concept work (airframe, propulsion, systems, operations constraints).
+
+**Primary Audience:**
+- Systems engineering, requirements engineering, certification & safety pre-studies
+
+**Typical Artefacts:**
+- Seed requirement lists, requirement extraction logs from studies
+- Linkage notes pointing to future formal requirement specs
+- Early compliance thoughts
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-REQSEED-AIRFRAME_V1R0.md`
@@ -143,14 +188,18 @@ Initial requirements seed for downstream requirements engineering.
 
 ---
 
-### 8. LC-11_00-GENERAL_Q100-RISK-RESEARCH/
-Research-phase risk identification and preliminary assessments.
+### 0017 — LC-11_00-GENERAL_Q100-RISK-RESEARCH/
+**Risk Research**
 
-**Contains:**
-- Hydrogen leak hazard analyses
-- Structural nonlinearity concerns
-- Neural network fail-safe considerations
-- Early technology risk assessments
+Early risk identification and exploratory risk notes (technology, safety, certification, industrialization).
+
+**Primary Audience:**
+- Programme risk owners, safety & certification, technology roadmapping, industrialization
+
+**Typical Artefacts:**
+- Risk registers (concept level), risk brainstorming notes
+- Mitigation options, technology readiness snapshots
+- Certification/industrialization risk narratives
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-RISK-H2-LEAK_V1R0.md`
@@ -159,14 +208,18 @@ Research-phase risk identification and preliminary assessments.
 
 ---
 
-### 9. LC-11_00-GENERAL_Q100-REVIEWS/
-Mission Concept Review (MCR) documentation and action items.
+### 0018 — LC-11_00-GENERAL_Q100-REVIEWS/
+**Reviews**
 
-**Contains:**
-- Review meeting summaries
-- Action item tracking
-- Decision records
-- Stakeholder feedback
+Minutes, action logs, and decision records from concept reviews (MCRs, internal and partner reviews).
+
+**Primary Audience:**
+- Review boards, chief engineers, PMO, governance and partners
+
+**Typical Artefacts:**
+- Review agendas, minutes of meeting
+- Decision logs, action lists
+- Review packages indexes (pointing to artefacts in 0010–0017)
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-REVIEW-MCR1-SUMMARY_V1R0.md`
@@ -174,13 +227,18 @@ Mission Concept Review (MCR) documentation and action items.
 
 ---
 
-### 10. LC-11_00-GENERAL_Q100-ARCHIVES/
-Historical snapshots and archived versions of concept artifacts.
+### LC-11_00-GENERAL_Q100-ARCHIVES/
+**Archives**
 
-**Contains:**
-- Dated archive packages
-- Superseded baseline versions
-- Historical configuration snapshots
+Archived snapshots of obsolete or superseded Q100 concept artefacts (frozen baselines, deprecated studies).
+
+**Primary Audience:**
+- All domains needing historical traceability and decision provenance
+
+**Typical Artefacts:**
+- Frozen baseline snapshots, superseded versions of key studies
+- Deprecated concept variants
+- Archive index files
 
 **Example Files:**
 - `LC-11_00-GENERAL_Q100-ARCHIVE-2025-12-05_V1R0.zip`
