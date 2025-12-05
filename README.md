@@ -19,28 +19,29 @@ The project follows a comprehensive three-pillar lifecycle framework aligned wit
 
 ---
 
-### **[LC-1 DEVELOPMENT](./LC-1_DEVELOPMENT/)**
+### **[LC-1 DEVELOPMENT](./LC-1_00-GENERAL_DEVELOPMENT/)**
 Engineering design, safety analysis, requirements, detailed design, interfaces, analysis, and V&V.
-- [LC-1.1 Research & Concept Development](./LC-1_DEVELOPMENT/LC-1.1_Research_Concept_Development/)
-- [LC-1.2 Safety Analysis (ARP4761)](./LC-1_DEVELOPMENT/LC-1.2_Safety_Analysis_ARP4761/)
-- [LC-1.3 Requirements Engineering](./LC-1_DEVELOPMENT/LC-1.3_Requirements_Engineering/)
-- [LC-1.4 Detailed Design](./LC-1_DEVELOPMENT/LC-1.4_Detailed_Design/)
-- [LC-1.5 Interfaces & Constituency Assemblies](./LC-1_DEVELOPMENT/LC-1.5_Interfaces_Constituency_Assemblies/)
-- [LC-1.6 Engineering Analysis & Integrations](./LC-1_DEVELOPMENT/LC-1.6_Engineering_Analysis_Integrations/)
-- [LC-1.7 Verification & Validation](./LC-1_DEVELOPMENT/LC-1.7_Verification_Validation/)
+- [LC-11 Research & Concept Development](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_00-GENERAL_RESEARCH-CONCEPT/)
+- [LC-12 Safety Analysis (ARP4761)](./LC-1_00-GENERAL_DEVELOPMENT/LC-12_00-GENERAL_SAFETY-ANALYSIS/)
+- [LC-13 Requirements Engineering](./LC-1_00-GENERAL_DEVELOPMENT/LC-13_00-GENERAL_REQUIREMENTS/)
+- [LC-14 Design Engineering](./LC-1_00-GENERAL_DEVELOPMENT/LC-14_00-GENERAL_DESIGN/)
+- [LC-15 Interfaces & Constituency Assemblies](./LC-1_00-GENERAL_DEVELOPMENT/LC-15_00-GENERAL_INTERFACES/)
+- [LC-16 Engineering Analysis & Integrations](./LC-1_00-GENERAL_DEVELOPMENT/LC-16_00-GENERAL_ANALYSIS/)
+- [LC-17 Verification & Validation](./LC-1_00-GENERAL_DEVELOPMENT/LC-17_00-GENERAL_VERIFICATION/)
 
-### **[LC-2 MANUFACTURING (CAM)](./LC-2_MANUFACTURING_CAM/)**
+### **[LC-2 MANUFACTURING (CAM)](./LC-2_00-GENERAL_MANUFACTURING/)**
 Prototyping, testing, certification, and production planning.
-- [LC-2.1 Prototypes / Pre-Series Builds](./LC-2_MANUFACTURING_CAM/LC-2.1_Prototypes_PreSeries_Builds/)
-- [LC-2.2 Test Campaign & Certification](./LC-2_MANUFACTURING_CAM/LC-2.2_Test_Campaign_Certification/)
-- [LC-2.3 Final Assembly Line & Production Planning](./LC-2_MANUFACTURING_CAM/LC-2.3_Final_Assembly_Line_Production_Planning/)
+- [LC-21 Prototyping](./LC-2_00-GENERAL_MANUFACTURING/LC-21_00-GENERAL_PROTOTYPING/)
+- [LC-22 Test Campaign & Certification](./LC-2_00-GENERAL_MANUFACTURING/LC-22_00-GENERAL_TEST-CERTIFICATION/)
+- [LC-23 FAL & Production Planning](./LC-2_00-GENERAL_MANUFACTURING/LC-23_00-GENERAL_FAL-PRODUCTION/)
+- [LC-24 Supply Chain & Industrialisation](./LC-2_00-GENERAL_MANUFACTURING/LC-24_00-GENERAL_SUPPLY-CHAIN/)
 
-### **[LC-3 SERIES OPERATIONS (CAOS)](./LC-3_SERIES_OPERATIONS_CAOS/)**
+### **[LC-3 SERIES OPERATIONS (CAOS)](./LC-3_00-GENERAL_OPERATIONS-CAOS/)**
 Computer-Aided Operations & Services for the full operational lifecycle.
-- [LC-3.1 Configuration & Change Management](./LC-3_SERIES_OPERATIONS_CAOS/LC-3.1_Configuration_Change_Management/)
-- [LC-3.2 MRO (Maintenance, Repair, Overhaul)](./LC-3_SERIES_OPERATIONS_CAOS/LC-3.2_MRO_Maintenance_Repair_Overhaul/)
-- [LC-3.3 Customer Care & Support Services](./LC-3_SERIES_OPERATIONS_CAOS/LC-3.3_Customer_Care_Support_Services/)
-- [LC-3.4 PNR, Spares & Circular Material Economy](./LC-3_SERIES_OPERATIONS_CAOS/LC-3.4_PNR_Spares_Circular_Material_Economy/)
+- [LC-31 Configuration & Change Management](./LC-3_00-GENERAL_OPERATIONS-CAOS/LC-31_00-GENERAL_CONFIGURATION/)
+- [LC-32 MRO (Maintenance, Repair, Overhaul)](./LC-3_00-GENERAL_OPERATIONS-CAOS/LC-32_00-GENERAL_MRO/)
+- [LC-33 Customer Care & Support Services](./LC-3_00-GENERAL_OPERATIONS-CAOS/LC-33_00-GENERAL_CUSTOMER-SUPPORT/)
+- [LC-34 PNR, Spares & Circular Material Economy](./LC-3_00-GENERAL_OPERATIONS-CAOS/LC-34_00-GENERAL_SPARES-CIRCULARITY/)
 
 ---
 

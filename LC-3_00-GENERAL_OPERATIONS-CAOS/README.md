@@ -10,16 +10,16 @@ LC-3 SERIES OPERATIONS (CAOS) represents the longest phase in the aircraft lifec
 
 ## Sub-Phases
 
-### [LC-3.1 Configuration & Change Management](./LC-3.1_Configuration_Change_Management/)
+### [LC-31 Configuration & Change Management](./LC-31_00-GENERAL_CONFIGURATION/)
 Service bulletins, modifications, retrofits, upgrades, SB/AD/AMP (Airworthiness Management) alignment, fleet-level configuration intelligence (CAOS).
 
-### [LC-3.2 MRO (Maintenance, Repair, Overhaul)](./LC-3.2_MRO_Maintenance_Repair_Overhaul/)
+### [LC-32 MRO (Maintenance, Repair, Overhaul)](./LC-32_00-GENERAL_MRO/)
 Scheduled & unscheduled maintenance, predictive NN-ECS, NN-FCS, NN-IMA monitoring, digital twins updated from fleet data, reliability analysis and maintenance planning.
 
-### [LC-3.3 Customer Care & Support Services](./LC-3.3_Customer_Care_Support_Services/)
+### [LC-33 Customer Care & Support Services](./LC-33_00-GENERAL_CUSTOMER-SUPPORT/)
 IETP / S1000D modules, technical documentation, spares, provisioning, IPC updates, operational assistance and training, cabin systems support + APAS advisory.
 
-### [LC-3.4 PNR, Spares & Circular Material Economy](./LC-3.4_PNR_Spares_Circular_Material_Economy/)
+### [LC-34 PNR, Spares & Circular Material Economy](./LC-34_00-GENERAL_SPARES-CIRCULARITY/)
 Part Number Registry + UTCS identity, material circularity (CO₂ harvesting, recycling, DPP), Green-E batteries lifecycle integration, supply chain symbiosis (ANCHORS, ATA 85-30).
 
 ## Key Objectives

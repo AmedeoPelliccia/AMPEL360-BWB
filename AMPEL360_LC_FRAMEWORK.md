@@ -59,41 +59,41 @@ Modern aerospace program structure:
 
 ### Sub-Phases
 
-#### [LC-1.1 Research & Concept Development](./LC-1_DEVELOPMENT/LC-1.1_Research_Concept_Development/)
+#### [LC-1.1 Research & Concept Development](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_00-GENERAL_RESEARCH-CONCEPT/)
 - Ideation and prompt-based conceptual generation
 - Architecture trades and mission envelopes
 - Environmental impact and sustainability targets
 - Conceptual risk assessments (V0 safety assumptions)
 
-#### [LC-1.2 Safety Analysis (ARP4761 / System Safety)](./LC-1_DEVELOPMENT/LC-1.2_Safety_Analysis_ARP4761/)
+#### [LC-1.2 Safety Analysis (ARP4761 / System Safety)](./LC-1_00-GENERAL_DEVELOPMENT/LC-12_00-GENERAL_SAFETY-ANALYSIS/)
 - FHA / PSSA / SSA
 - Preliminary hazard logs
 - Failure conditions classification
 - Safety-driven architectural constraints
 - Allocation of DAL levels & independence requirements
 
-#### [LC-1.3 Requirements Engineering](./LC-1_DEVELOPMENT/LC-1.3_Requirements_Engineering/)
+#### [LC-1.3 Requirements Engineering](./LC-1_00-GENERAL_DEVELOPMENT/LC-13_00-GENERAL_REQUIREMENTS/)
 - Material / process selection
 - Functional & performance requirements
 - Derived requirements from safety & certification
 - GenCCC requirement traceability matrices
 - UTCS identity assignment & versioning
 
-#### [LC-1.4 Detailed Design](./LC-1_DEVELOPMENT/LC-1.4_Detailed_Design/)
+#### [LC-1.4 Design Engineering](./LC-1_00-GENERAL_DEVELOPMENT/LC-14_00-GENERAL_DESIGN/)
 - CAD (Catia, NX, BlenderCAD)
 - Systems architecture & logical models (MBSE)
 - ATA chapter breakdown
 - 2D/3D/parametric model baselines
 - Bill of Materials + metadata + OPT-IN folders
 
-#### [LC-1.5 Interfaces & Constituency Assemblies](./LC-1_DEVELOPMENT/LC-1.5_Interfaces_Constituency_Assemblies/)
+#### [LC-1.5 Interfaces & Constituency Assemblies](./LC-1_00-GENERAL_DEVELOPMENT/LC-15_00-GENERAL_INTERFACES/)
 - ICDs (Interface Control Documents)
 - Mechanical, electrical, software, data interfaces
 - Constituency assemblies for composite structures
 - Jointing, fasteners, tolerances, installation points
 - Interface stress margins & manufacturability check
 
-#### [LC-1.6 Engineering Analysis & Integrations](./LC-1_DEVELOPMENT/LC-1.6_Engineering_Analysis_Integrations/)
+#### [LC-1.6 Engineering Analysis & Integrations](./LC-1_00-GENERAL_DEVELOPMENT/LC-16_00-GENERAL_ANALYSIS/)
 - FEM / CFD / FCS simulations
 - Loads, aeroelasticity, flutter
 - NN-integrated subsystems (ATA 95)
@@ -101,7 +101,7 @@ Modern aerospace program structure:
 - Verification of system interactions
 - Digital twin model synchronization (UTCS lineage)
 
-#### [LC-1.7 Verification & Validation (V&V)](./LC-1_DEVELOPMENT/LC-1.7_Verification_Validation/)
+#### [LC-1.7 Verification & Validation (V&V)](./LC-1_00-GENERAL_DEVELOPMENT/LC-17_00-GENERAL_VERIFICATION/)
 - Requirements → Test → Evidence chain
 - DO-178C, DO-254, DO-160 test preparation
 - IPT/IVV readiness
@@ -126,14 +126,14 @@ Modern aerospace program structure:
 
 ### Sub-Phases
 
-#### [LC-2.1 Prototypes / Pre-Series Builds](./LC-2_MANUFACTURING_CAM/LC-2.1_Prototypes_PreSeries_Builds/)
+#### [LC-2.1 Prototypes / Pre-Series Builds](./LC-2_00-GENERAL_MANUFACTURING/LC-21_00-GENERAL_PROTOTYPING/)
 - Manufacturing drawings
 - CAM toolpaths / composite layups
 - Jig and tooling design
 - Assembly instructions & ergonomics
 - Inspection and conformity documentation
 
-#### [LC-2.2 Test Campaign & Certification](./LC-2_MANUFACTURING_CAM/LC-2.2_Test_Campaign_Certification/)
+#### [LC-2.2 Test Campaign & Certification](./LC-2_00-GENERAL_MANUFACTURING/LC-22_00-GENERAL_TEST-CERTIFICATION/)
 - Ground tests (static, fatigue, pressure, systems rigs)
 - Flight-test instrumentation
 - FTI digital twin integration
@@ -141,7 +141,7 @@ Modern aerospace program structure:
 - Conformity inspections (A, B, C)
 - DO-160 environmental qualification
 
-#### [LC-2.3 Final Assembly Line (FAL) & Production Planning](./LC-2_MANUFACTURING_CAM/LC-2.3_Final_Assembly_Line_Production_Planning/)
+#### [LC-2.3 Final Assembly Line (FAL) & Production Planning](./LC-2_00-GENERAL_MANUFACTURING/LC-23_00-GENERAL_FAL-PRODUCTION/)
 - FAL takt time design
 - Production work orders
 - Configuration baselines
