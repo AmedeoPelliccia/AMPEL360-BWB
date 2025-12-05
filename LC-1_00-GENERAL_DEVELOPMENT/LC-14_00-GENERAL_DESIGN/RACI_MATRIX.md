@@ -124,10 +124,10 @@ LC-1.4_Detailed_Design/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-1.4_{ATA-IDX}-{ATA-DESC}_{FUNCTION}_V{x}R{y}`
-- **Example:** `LC-1.4_27-FLIGHT-CONTROLS_PRELIM-DESIGN_V1R0.pdf`
-- **Example:** `LC-1.4_28H-HYDROGEN_CAD-TANK-ASSY_V2R1.catproduct`
-- **Example:** `LC-1.4_95-NN-SYSTEMS_SCHEMATIC-NN-FCS_V1R0.pdf`
+- **Format:** `LC-14_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
+- **Example:** `LC-14_27-FLIGHT-CONTROLS_PRELIM-DESIGN_V1R0.pdf`
+- **Example:** `LC-14_28H-HYDROGEN_CAD-TANK-ASSY_V2R1.catproduct`
+- **Example:** `LC-14_95-NN-SYSTEMS_SCHEMATIC-NN-FCS_V1R0.pdf`
 
 ---
 

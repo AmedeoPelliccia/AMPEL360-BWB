@@ -130,10 +130,10 @@ ATADESC is **automatically derived** from ATAIDX using the ATA_MAP.yaml dictiona
 - `9500` → `NN-SYSTEMS` (novel AI/NN chapter)
 
 **Novel ATA Chapters:**
-- `28H` → `HYDROGEN` (hydrogen-specific subsystems)
-- `80` → `ELECTRIC-PROPULSION`
-- `85` → `GREEN-E-BATTERY`
-- `95` → `NN-SYSTEMS` (AI/Neural Network systems)
+- `28H` → `HYDROGEN` (hydrogen-specific subsystems; 'H' suffix distinguishes from conventional fuel systems in ATA 28)
+- `80` → `ELECTRIC-PROPULSION` (new chapter for distributed electric propulsion)
+- `85` → `GREEN-E-BATTERY` (new chapter for battery energy storage systems)
+- `95` → `NN-SYSTEMS` (new chapter for AI/Neural Network systems)
 
 ### 4.5 Functional Descriptor (FUNC)
 

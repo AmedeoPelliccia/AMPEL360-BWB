@@ -122,10 +122,10 @@ LC-1.3_Requirements_Engineering/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-1.3_{ATA-IDX}-{ATA-DESC}_{FUNCTION}_V{x}R{y}`
-- **Example:** `LC-1.3_00-GENERAL_SRD-AIRCRAFT-LEVEL_V1R0.pdf`
-- **Example:** `LC-1.3_28H-HYDROGEN_SUBSYS-REQUIREMENTS_V2R1.pdf`
-- **Example:** `LC-1.3_95-NN-SYSTEMS_NN-FCS-REQUIREMENTS_V1R0.pdf`
+- **Format:** `LC-13_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
+- **Example:** `LC-13_00-GENERAL_SRD-AIRCRAFT-LEVEL_V1R0.pdf`
+- **Example:** `LC-13_28H-HYDROGEN_SUBSYS-REQUIREMENTS_V2R1.pdf`
+- **Example:** `LC-13_95-NN-SYSTEMS_NN-FCS-REQUIREMENTS_V1R0.pdf`
 
 ---
 

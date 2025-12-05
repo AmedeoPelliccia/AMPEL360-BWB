@@ -126,10 +126,10 @@ LC-1.5_Interfaces_Constituency_Assemblies/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-1.5_{ATA-IDX}-{ATA-DESC}_{FUNCTION}_V{x}R{y}`
-- **Example:** `LC-1.5_42-IMA_ICD-AFDX-NETWORK_V1R0.pdf`
-- **Example:** `LC-1.5_00-GENERAL_ASSEMBLY-TREE-AIRCRAFT_V2R1.xlsx`
-- **Example:** `LC-1.5_95-NN-SYSTEMS_ICD-NN-BUS_V1R0.pdf`
+- **Format:** `LC-15_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
+- **Example:** `LC-15_42-IMA_ICD-AFDX-NETWORK_V1R0.pdf`
+- **Example:** `LC-15_00-GENERAL_ASSEMBLY-TREE-AIRCRAFT_V2R1.xlsx`
+- **Example:** `LC-15_95-NN-SYSTEMS_ICD-NN-BUS_V1R0.pdf`
 
 ---
 
