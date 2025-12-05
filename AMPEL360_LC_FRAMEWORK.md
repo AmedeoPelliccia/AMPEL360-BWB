@@ -79,7 +79,7 @@ Modern aerospace program structure:
 - GenCCC requirement traceability matrices
 - UTCS identity assignment & versioning
 
-#### [LC-1.4 Detailed Design](./LC-1_DEVELOPMENT/LC-1.4_Detailed_Design/)
+#### [LC-1.4 Design Engineering](./LC-1_DEVELOPMENT/LC-1.4_Design_Engineering/)
 - CAD (Catia, NX, BlenderCAD)
 - Systems architecture & logical models (MBSE)
 - ATA chapter breakdown

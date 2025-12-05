@@ -24,16 +24,17 @@ Engineering design, safety analysis, requirements, detailed design, interfaces, 
 - [LC-1.1 Research & Concept Development](./LC-1_DEVELOPMENT/LC-1.1_Research_Concept_Development/)
 - [LC-1.2 Safety Analysis (ARP4761)](./LC-1_DEVELOPMENT/LC-1.2_Safety_Analysis_ARP4761/)
 - [LC-1.3 Requirements Engineering](./LC-1_DEVELOPMENT/LC-1.3_Requirements_Engineering/)
-- [LC-1.4 Detailed Design](./LC-1_DEVELOPMENT/LC-1.4_Detailed_Design/)
+- [LC-1.4 Design Engineering](./LC-1_DEVELOPMENT/LC-1.4_Design_Engineering/)
 - [LC-1.5 Interfaces & Constituency Assemblies](./LC-1_DEVELOPMENT/LC-1.5_Interfaces_Constituency_Assemblies/)
 - [LC-1.6 Engineering Analysis & Integrations](./LC-1_DEVELOPMENT/LC-1.6_Engineering_Analysis_Integrations/)
 - [LC-1.7 Verification & Validation](./LC-1_DEVELOPMENT/LC-1.7_Verification_Validation/)
 
 ### **[LC-2 MANUFACTURING (CAM)](./LC-2_MANUFACTURING_CAM/)**
 Prototyping, testing, certification, and production planning.
-- [LC-2.1 Prototypes / Pre-Series Builds](./LC-2_MANUFACTURING_CAM/LC-2.1_Prototypes_PreSeries_Builds/)
+- [LC-2.1 Prototyping](./LC-2_MANUFACTURING_CAM/LC-2.1_Prototyping/)
 - [LC-2.2 Test Campaign & Certification](./LC-2_MANUFACTURING_CAM/LC-2.2_Test_Campaign_Certification/)
-- [LC-2.3 Final Assembly Line & Production Planning](./LC-2_MANUFACTURING_CAM/LC-2.3_Final_Assembly_Line_Production_Planning/)
+- [LC-2.3 FAL & Production Planning](./LC-2_MANUFACTURING_CAM/LC-2.3_FAL_Production_Planning/)
+- [LC-2.4 Supply Chain & Industrialisation](./LC-2_MANUFACTURING_CAM/LC-2.4_Supply_Chain_Industrialisation/)
 
 ### **[LC-3 SERIES OPERATIONS (CAOS)](./LC-3_SERIES_OPERATIONS_CAOS/)**
 Computer-Aided Operations & Services for the full operational lifecycle.
