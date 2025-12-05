@@ -88,32 +88,32 @@ This document defines the **Responsible, Accountable, Consulted, and Informed (R
 
 ### Folder Structure
 ```
-LC-1.1_Research_Concept_Development/
+LC-11_00-GENERAL_RESEARCH-CONCEPT/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Concept_Baselines/
-│   ├── BWB_Configuration_V*.md
-│   ├── Propulsion_Integration_Concept_V*.md
-│   └── Systems_Architecture_Concept_V*.md
+│   ├── LC-11_00-GENERAL_BWB-CONFIG_V*.md
+│   ├── LC-11_7100-POWERPLANT_PROPULSION-INTEGRATION_V*.md
+│   └── LC-11_00-GENERAL_SYSTEMS-ARCHITECTURE_V*.md
 ├── Trade_Studies/
-│   ├── Configuration_Trades_*.md
-│   ├── Propulsion_Trades_*.md
-│   └── Technology_Assessment_*.md
+│   ├── LC-11_00-GENERAL_CONFIG-TRADES_V*.md
+│   ├── LC-11_7100-POWERPLANT_PROPULSION-TRADES_V*.md
+│   └── LC-11_00-GENERAL_TECH-ASSESSMENT_V*.md
 ├── High_Level_Configurations/
-│   ├── Vehicle_Geometry_V*.md
-│   ├── Major_Systems_Layout_V*.md
-│   └── Integration_Concepts_V*.md
+│   ├── LC-11_5100-FUSELAGE_VEHICLE-GEOMETRY_V*.md
+│   ├── LC-11_00-GENERAL_MAJOR-SYSTEMS-LAYOUT_V*.md
+│   └── LC-11_00-GENERAL_INTEGRATION-CONCEPTS_V*.md
 └── Mission_Performance_Envelopes/
-    ├── Mission_Profiles_*.md
-    ├── Performance_Requirements_*.md
-    └── Energy_Analysis_*.md
+    ├── LC-11_00-GENERAL_MISSION-PROFILES_V*.md
+    ├── LC-11_00-GENERAL_PERFORMANCE-REQUIREMENTS_V*.md
+    └── LC-11_2800-HYDROGEN_ENERGY-ANALYSIS_V*.md
 ```
 
 ### UTCS Naming Convention
 All artefacts in this stage follow the UTCS-LC naming standard:
-- **Format:** `LC-1.1_{ATA-IDX}-{ATA-DESC}_{FUNCTION}_V{x}R{y}`
-- **Example:** `LC-1.1_00-GENERAL_CONCEPT-BASELINE_V1R0.md`
-- **Example:** `LC-1.1_00-GENERAL_TRADE-STUDY-BWB_V2R1.pdf`
+- **Format:** <span style="color:#0066cc">`LC-11`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-11`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CONCEPT-BASELINE`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
+- **Example:** <span style="color:#0066cc">`LC-11`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`TRADE-STUDY-BWB`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
 
 See [UTCS-LC Naming Rules](../../UTCS/UTCS-LC_NAMING_RULES.md) for complete specification.
 

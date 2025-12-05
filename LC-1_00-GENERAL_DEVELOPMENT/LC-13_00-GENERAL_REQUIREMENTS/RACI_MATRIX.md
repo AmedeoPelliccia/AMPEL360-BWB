@@ -91,41 +91,41 @@ This document defines the **Responsible, Accountable, Consulted, and Informed (R
 
 ### Folder Structure
 ```
-LC-1.3_Requirements_Engineering/
+LC-13_00-GENERAL_REQUIREMENTS/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── SRD_System_Requirements_Document/
-│   ├── AMPEL360_SRD_V*.pdf
+│   ├── LC-13_00-GENERAL_AMPEL360-SRD_V*.pdf
 │   ├── Functional_Requirements/
 │   ├── Performance_Requirements/
 │   ├── Interface_Requirements/
 │   └── Safety_Requirements/
 ├── Subsystem_Requirements/
-│   ├── ATA_21_Air_Conditioning_Requirements_V*.pdf
-│   ├── ATA_22_Autoflight_Requirements_V*.pdf
-│   ├── ATA_27_Flight_Controls_Requirements_V*.pdf
-│   ├── ATA_28H_Hydrogen_System_Requirements_V*.pdf
-│   ├── ATA_80_Electric_Propulsion_Requirements_V*.pdf
-│   ├── ATA_85_Green_E_Battery_Requirements_V*.pdf
-│   ├── ATA_95_NN_Systems_Requirements_V*.pdf
+│   ├── LC-13_2100-AIR-CONDITIONING_REQUIREMENTS_V*.pdf
+│   ├── LC-13_2200-AUTOFLIGHT_REQUIREMENTS_V*.pdf
+│   ├── LC-13_2700-FLIGHT-CONTROLS_REQUIREMENTS_V*.pdf
+│   ├── LC-13_2800-HYDROGEN_REQUIREMENTS_V*.pdf
+│   ├── LC-13_8000-ELECTRIC-PROPULSION_REQUIREMENTS_V*.pdf
+│   ├── LC-13_8500-GREEN-E-BATTERY_REQUIREMENTS_V*.pdf
+│   ├── LC-13_9500-NN-SYSTEMS_REQUIREMENTS_V*.pdf
 │   └── [Other ATA chapters...]
 ├── ICD_Interface_Requirements/
-│   ├── Mechanical_Interface_Requirements_V*.pdf
-│   ├── Electrical_Interface_Requirements_V*.pdf
-│   ├── Data_Interface_Requirements_V*.pdf
-│   └── Software_Interface_Requirements_V*.pdf
+│   ├── LC-13_00-GENERAL_MECHANICAL-INTERFACE-REQ_V*.pdf
+│   ├── LC-13_00-GENERAL_ELECTRICAL-INTERFACE-REQ_V*.pdf
+│   ├── LC-13_00-GENERAL_DATA-INTERFACE-REQ_V*.pdf
+│   └── LC-13_00-GENERAL_SOFTWARE-INTERFACE-REQ_V*.pdf
 └── Traceability/
-    ├── Requirements_Traceability_Matrix.xlsx
-    ├── Verification_Matrix.xlsx
-    ├── Certification_Traceability.xlsx
+    ├── LC-13_00-GENERAL_REQUIREMENTS-TRACE-MATRIX_V*.xlsx
+    ├── LC-13_00-GENERAL_VERIFICATION-MATRIX_V*.xlsx
+    ├── LC-13_00-GENERAL_CERT-TRACEABILITY_V*.xlsx
     └── GenCCC_Traceability_Reports/
 ```
 
 ### UTCS Naming Convention
-- **Format:** `LC-13_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}`
-- **Example:** `LC-13_00-GENERAL_SRD-AIRCRAFT-LEVEL_V1R0.pdf`
-- **Example:** `LC-13_28H-HYDROGEN_SUBSYS-REQUIREMENTS_V2R1.pdf`
-- **Example:** `LC-13_95-NN-SYSTEMS_NN-FCS-REQUIREMENTS_V1R0.pdf`
+- **Format:** <span style="color:#0066cc">`LC-13`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
+- **Example:** <span style="color:#0066cc">`LC-13`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`SRD-AIRCRAFT-LEVEL`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-13`</span>`_`<span style="color:#cc6600">`2800`</span>`-`<span style="color:#666666">`HYDROGEN`</span>`_`<span style="color:#009900">`SUBSYS-REQUIREMENTS`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-13`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`NN-FCS-REQUIREMENTS`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
 
 ---
 
