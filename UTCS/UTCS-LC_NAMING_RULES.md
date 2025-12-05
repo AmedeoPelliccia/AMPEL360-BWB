@@ -19,6 +19,7 @@ This document defines the comprehensive naming rules for all directories, files,
 * **ATA Alignment:** Integration with ATA iSpec 2200 classification
 * **Version Control:** Built-in versioning for configuration management
 * **Automation-Ready:** Compatible with GenCCC, CAOS, and DPP systems
+* **Visual Differentiation:** Color coding to distinguish LC ID from ATA ID components (see [Color Coding Guide](./UTCS_COLOR_CODING_GUIDE.md))
 
 ---
 
@@ -219,12 +220,22 @@ Standard file extensions based on artefact type:
 
 ## 5. Naming Examples
 
+**Color Coding:** See [UTCS Color Coding Guide](./UTCS_COLOR_CODING_GUIDE.md) for visual differentiation between components:
+- <span style="color:#0066cc">LC ID (Blue)</span>
+- <span style="color:#cc6600">ATA ID (Orange)</span>
+- <span style="color:#666666">ATA DESC (Gray)</span>
+- <span style="color:#009900">FUNC (Green)</span>
+- <span style="color:#990099">Version (Purple)</span>
+
 ### 5.1 Development Stage Examples
 
 ```
 # Concept-level trade study
 LC-11_00-GENERAL_TRADE-STUDY-BWB-CONFIG_V1R0.pdf
+```
+<span style="color:#0066cc">**LC-11**</span>_<span style="color:#cc6600">**00**</span>-<span style="color:#666666">**GENERAL**</span>_<span style="color:#009900">**TRADE-STUDY-BWB-CONFIG**</span>_<span style="color:#990099">**V1R0**</span>.pdf
 
+```
 # Safety analysis for flight controls
 LC-12_27-FLIGHT-CONTROLS_FHA-FCS_V1R0.pdf
 LC-12_27-FLIGHT-CONTROLS_PSSA-FCS_V1R1.pdf
