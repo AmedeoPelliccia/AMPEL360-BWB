@@ -1,0 +1,167 @@
+# AMPEL360 Q100 Concept Baselines Index
+# UTCS Node: LC-11_0010
+
+metadata:
+  utcs_node: LC-11_0010
+  title: "Q100 Concept Baselines"
+  description: "Baseline concept definitions and supporting documentation for AMPEL360 BWB Q100"
+  owner: "Architecture Board"
+  status: "Active"
+  version: "1.0"
+  last_updated: "2025-12-05"
+
+documents:
+  concept_foundation:
+    - id: "01"
+      title: "Concept Overview"
+      file: "LC-11_0010-01_Concept_Overview.md"
+      status: "Released"
+    - id: "02"
+      title: "Architecture Rationale"
+      file: "LC-11_0010-02_Architecture_Rationale.md"
+      status: "Released"
+    - id: "03"
+      title: "Concept Evolution Log"
+      file: "LC-11_0010-03_Concept_Evolution_Log.md"
+      status: "Living"
+    - id: "04"
+      title: "Geometry Definition"
+      file: "LC-11_0010-04_Geometry_Definition.md"
+      status: "Released"
+    - id: "05"
+      title: "Planform Layout"
+      file: "LC-11_0010-05_Planform_Layout.md"
+      status: "Released"
+    - id: "06"
+      title: "Cabin Layout Concept"
+      file: "LC-11_0010-06_Cabin_Layout_Concept.md"
+      status: "Released"
+    - id: "07"
+      title: "Crew and Passenger Flow"
+      file: "LC-11_0010-07_Crew_Pax_Flow_Concept.md"
+      status: "Released"
+
+  mission_performance:
+    - id: "08"
+      title: "Mission and Payload Assumptions"
+      file: "LC-11_0010-08_Mission_Payload_Assumptions.md"
+      status: "Released"
+    - id: "09"
+      title: "PMB0 Preliminary Mass Breakdown"
+      file: "LC-11_0010-09_PMB0_Preliminary_Mass_Breakdown.md"
+      status: "Released"
+    - id: "10"
+      title: "Performance Assumptions"
+      file: "LC-11_0010-10_Performance_Assumptions.md"
+      status: "Released"
+    - id: "11"
+      title: "Energy Sizing Preliminary"
+      file: "LC-11_0010-11_Energy_Sizing_Prelim.md"
+      status: "Released"
+
+  baselines:
+    - id: "12"
+      title: "Baseline A Definition"
+      file: "LC-11_0010-12_BaselineA_Definition.md"
+      status: "Frozen"
+    - id: "13"
+      title: "Baseline B Definition"
+      file: "LC-11_0010-13_BaselineB_Definition.md"
+      status: "Draft"
+    - id: "14"
+      title: "Baseline C Definition"
+      file: "LC-11_0010-14_BaselineC_Definition.md"
+      status: "Draft"
+    - id: "15"
+      title: "Baseline Comparison"
+      file: "LC-11_0010-15_Baseline_Comparison.md"
+      status: "Released"
+    - id: "16"
+      title: "Baseline Selection Rationale"
+      file: "LC-11_0010-16_Baseline_Selection_Rationale.md"
+      status: "Draft"
+
+  trade_studies:
+    - id: "17"
+      title: "Trade Study Input Assumptions"
+      file: "LC-11_0010-17_Trade_Input_Assumptions.md"
+      status: "Draft"
+    - id: "18"
+      title: "Parameter Bounds"
+      file: "LC-11_0010-18_Parameter_Bounds.md"
+      status: "Draft"
+    - id: "19"
+      title: "Key Open Questions"
+      file: "LC-11_0010-19_Key_Open_Questions.md"
+      status: "Living"
+
+  integration:
+    - id: "20"
+      title: "Airframe Integration"
+      file: "LC-11_0010-20_Airframe_Integration.md"
+      status: "Draft"
+    - id: "21"
+      title: "Propulsion Integration"
+      file: "LC-11_0010-21_Propulsion_Integration.md"
+      status: "Released"
+    - id: "22"
+      title: "ECS and Cabin Integration"
+      file: "LC-11_0010-22_ECS_Cabin_Integration.md"
+      status: "Released"
+    - id: "23"
+      title: "GSE and Cargo Concept"
+      file: "LC-11_0010-23_GSE_Cargo_Concept.md"
+      status: "Released"
+
+  risk_assessment:
+    - id: "24"
+      title: "Technology Risks"
+      file: "LC-11_0010-24_Technology_Risks.md"
+      status: "Draft"
+    - id: "25"
+      title: "Structural and Energy Risks"
+      file: "LC-11_0010-25_Structural_Energy_Risks.md"
+      status: "Draft"
+    - id: "26"
+      title: "Operations and Certification Risks"
+      file: "LC-11_0010-26_Ops_Certification_Risks.md"
+      status: "Draft"
+
+  tracking:
+    - id: "27"
+      title: "Concept Decision Log"
+      file: "LC-11_0010-27_Concept_Decision_Log.md"
+      status: "Living"
+    - id: "28"
+      title: "Assumptions Register"
+      file: "LC-11_0010-28_Assumptions_Register.md"
+      status: "Living"
+
+assets:
+  directory: "ASSETS/"
+  description: "Supporting figures, diagrams, and data files"
+  types:
+    - "Geometry models (STEP, IGES)"
+    - "Aerodynamic data (CSV, plots)"
+    - "Mass breakdown spreadsheets"
+    - "CFD results and images"
+    - "Concept sketches and renderings"
+
+keywords:
+  - BWB
+  - Blended Wing Body
+  - Hydrogen
+  - Electric Propulsion
+  - Q100
+  - Concept Baseline
+  - Aircraft Design
+
+references:
+  internal:
+    - "LC-11_00-GENERAL_Q100"
+    - "LC-11_00-GENERAL_RESEARCH-CONCEPT"
+    - "UTCS-LC Naming Rules"
+  external:
+    - "ARP4754A"
+    - "CS-25 / FAR Part 25"
+    - "EASA SC: Hydrogen-Powered Aircraft"
