@@ -47,11 +47,11 @@ The UTCS Node codes follow a **Chapter → Section → Subject** hierarchy:
 - `10` = Section
 - Subject codes `01–99` represent individual artefacts within this section
 
-Therefore, files within `0010_Aircraft_Concept/` follow the pattern:
+Therefore, files within the CONCEPT-BASELINES directory (Node 0010) follow the pattern:
 ```
-0010-01_Concept_Overview.md
-0010-02_Architecture_Rationale.md
-0010-03_Concept_Evolution_Log.md
+LC-11_00-10-01_Concept_Overview_V1R0.md
+LC-11_00-10-02_Architecture_Rationale_V1R0.md
+LC-11_00-10-03_Concept_Evolution_Log_V1R0.md
 ```
 
 ---
