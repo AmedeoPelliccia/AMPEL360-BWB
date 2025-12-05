@@ -22,11 +22,11 @@ LC-{STAGE}{SUBSTAGE}_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}.ext
 - File: `LC-11_00-GENERAL_Q100-CONCEPT-BL-OVERVIEW_V1R0.md`
 
 Where:
-- <span style="color:#0066cc">`LC-11`</span> = Life Cycle Stage 1, Substage 1 (Research & Concept)
-- <span style="color:#cc6600">`00-GENERAL`</span> = ATA Chapter (00 = General/Cross-system)
-- <span style="color:#009900">`Q100`</span> = Project scope identifier
-- <span style="color:#666666">`{FUNC}`</span> = Functional category (e.g., CONCEPT-BASELINES, TRADE-STUDIES)
-- <span style="color:#990099">`V{x}R{y}`</span> = Version x, Revision y
+- **`LC-11`** = Life Cycle Stage 1, Substage 1 (Research & Concept)
+- **`00-GENERAL`** = ATA Chapter (00 = General/Cross-system)
+- **`Q100`** = Project scope identifier
+- **`{FUNC}`** = Functional category (e.g., CONCEPT-BASELINES, TRADE-STUDIES)
+- **`V{x}R{y}`** = Version x, Revision y
 
 ---
 
@@ -258,6 +258,6 @@ Historical snapshots and archived versions of concept artifacts.
 
 **Document Control:**
 - **Version:** 1.0
-- **Date:** December 2025
+- **Date:** 2025-12-05
 - **Status:** Released
 - **Owner:** AMPEL360 Architecture Board
