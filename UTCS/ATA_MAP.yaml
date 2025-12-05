@@ -1,0 +1,739 @@
+# ATA_MAP.yaml
+# =============================================================================
+# AMPEL360-BWB-EXLC — eXtended LifeCycle, eXCeLLenCe by design
+# =============================================================================
+# Official ATA dictionary for automatic ATADESC generation
+# Used by UTCS-ID resolver to derive:
+#   ATADESC = SYS_DESC [_SECTION_DESC] [_SUBJECT_DESC]
+#
+# All descriptors are in UPPER_SNAKE_CASE, ready for deterministic concatenation.
+# =============================================================================
+
+meta:
+  schema_version: "2.0"
+  programme: "AMPEL360-BWB-EXLC"
+  description: >
+    Complete ATA dictionary for AMPEL360 BWB H2 Hy-E Q100 INTEGRA aircraft.
+    Covers standard ATA 100 chapters (00-99), extended AMPEL360 chapters (100+),
+    with full OPT-IN axis mapping and LC stage tagging for CGen/GenCCC automation.
+  last_updated: "2025-12-05"
+  owner: AMPEL360_OPT_IN_GOVERNANCE
+  aircraft_type: BWB_H2_HYBRID_ELECTRIC
+  certification_basis: [EASA_CS25, FAA_14CFR25, ICAO_ANNEX_8]
+  notes:
+    - "Extend systems/sections/subjects as programme grows."
+    - "Never change the meaning of an existing code; add new ones instead."
+    - "All values are canonical names in UPPER_SNAKE_CASE."
+    - "OPT-IN axes: O=Organization, P=Program, T=Technology, I=Infrastructures, N=Neural_Networks"
+    - "LC stages: LC1=Development, LC2=Manufacturing, LC3=Operations"
+
+# =============================================================================
+# SYSTEMS (2-digit ATA codes)
+# =============================================================================
+systems:
+
+  # ---------------------------------------------------------------------------
+  # O — ORGANIZATION (ATA 00, 01, 04, 05)
+  # ---------------------------------------------------------------------------
+  "00":
+    name: GENERAL
+    optin_axis: O_ORGANIZATION
+    tags: [GOVERNANCE, STANDARDS, CROSS_CUTTING]
+    lc_stages: [LC1, LC2, LC3]
+    description: "General information, standards, procedures"
+    
+  "01":
+    name: WEIGHT_BALANCE
+    optin_axis: O_ORGANIZATION
+    tags: [AIRCRAFT_GENERAL, PERFORMANCE]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Weight and balance documentation"
+    
+  "02":
+    name: LIMITATIONS
+    optin_axis: O_ORGANIZATION
+    tags: [AIRCRAFT_GENERAL, CERTIFICATION]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Aircraft operational limitations"
+    
+  "03":
+    name: EMERGENCY_EQUIPMENT
+    optin_axis: O_ORGANIZATION
+    tags: [SAFETY, CERTIFICATION]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Emergency equipment and procedures"
+    
+  "04":
+    name: AIRWORTHINESS_LIMITATIONS
+    optin_axis: O_ORGANIZATION
+    tags: [CERTIFICATION, MAINTENANCE]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Airworthiness limitations and certification requirements"
+    
+  "05":
+    name: PERIODIC_CHECKS
+    optin_axis: O_ORGANIZATION
+    tags: [MAINTENANCE, TIME_LIMITS]
+    lc_stages: [LC2, LC3]
+    description: "Time limits and maintenance checks"
+    
+  "06":
+    name: DIMENSIONS_AREAS
+    optin_axis: O_ORGANIZATION
+    tags: [AIRCRAFT_GENERAL, GEOMETRY]
+    lc_stages: [LC1, LC2]
+    description: "Aircraft dimensions and surface areas"
+    
+  "07":
+    name: LIFTING_SHORING
+    optin_axis: O_ORGANIZATION
+    tags: [GROUND_HANDLING, MAINTENANCE]
+    lc_stages: [LC2, LC3]
+    description: "Lifting, jacking, and shoring procedures"
+    
+  "08":
+    name: LEVELING_WEIGHING
+    optin_axis: O_ORGANIZATION
+    tags: [GROUND_HANDLING, MAINTENANCE]
+    lc_stages: [LC2, LC3]
+    description: "Aircraft leveling and weighing"
+    
+  "09":
+    name: TOWING_TAXIING
+    optin_axis: O_ORGANIZATION
+    tags: [GROUND_HANDLING, OPERATIONS]
+    lc_stages: [LC2, LC3]
+    description: "Towing and taxiing procedures"
+    
+  "10":
+    name: PARKING_MOORING_STORAGE
+    optin_axis: O_ORGANIZATION
+    tags: [GROUND_HANDLING, OPERATIONS]
+    lc_stages: [LC2, LC3]
+    description: "Parking, mooring, storage, and return to service"
+    
+  "11":
+    name: PLACARDS_MARKINGS
+    optin_axis: O_ORGANIZATION
+    tags: [AIRCRAFT_GENERAL, CERTIFICATION]
+    lc_stages: [LC2, LC3]
+    description: "Placards and markings"
+    
+  "12":
+    name: SERVICING
+    optin_axis: O_ORGANIZATION
+    tags: [GROUND_HANDLING, MAINTENANCE]
+    lc_stages: [LC2, LC3]
+    description: "Routine servicing procedures"
+
+  # ---------------------------------------------------------------------------
+  # T — TECHNOLOGY: AIRFRAME SYSTEMS (ATA 20-49)
+  # ---------------------------------------------------------------------------
+  "21":
+    name: AIR_CONDITIONING
+    optin_axis: T_TECHNOLOGY
+    tags: [ENVIRONMENTAL_CONTROL, CABIN_SYSTEMS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Environmental control system, cabin pressurization, temperature control"
+    
+  "22":
+    name: AUTO_FLIGHT
+    optin_axis: T_TECHNOLOGY
+    tags: [AVIONICS, FLIGHT_CONTROL, AI_ENHANCED]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Autopilot and autoflight systems with AI/NN enhancement"
+    
+  "23":
+    name: COMMUNICATIONS
+    optin_axis: T_TECHNOLOGY
+    tags: [AVIONICS, DATALINK]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Voice and data communication systems"
+    
+  "24":
+    name: ELECTRICAL_POWER
+    optin_axis: T_TECHNOLOGY
+    tags: [POWER_SYSTEMS, ELECTRICAL]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Electrical power generation and distribution"
+    
+  "25":
+    name: EQUIPMENT_FURNISHINGS
+    optin_axis: T_TECHNOLOGY
+    tags: [CABIN_SYSTEMS, INTERIOR]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Cabin equipment and furnishings"
+    
+  "26":
+    name: FIRE_PROTECTION
+    optin_axis: T_TECHNOLOGY
+    tags: [SAFETY, SYSTEMS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Fire detection and suppression systems"
+    
+  "27":
+    name: FLIGHT_CONTROLS
+    optin_axis: T_TECHNOLOGY
+    tags: [FLIGHT_CONTROL, PRIMARY_CONTROLS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Primary and secondary flight controls (fly-by-wire)"
+    
+  "28":
+    name: FUEL
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, FUEL_SYSTEMS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Conventional fuel systems (if hybrid)"
+    
+  "28H":
+    name: HYDROGEN
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, HYDROGEN, CRYOGENIC, AMPEL360_EXTENDED]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Hydrogen storage, distribution, and safety systems"
+    
+  "29":
+    name: HYDRAULIC_POWER
+    optin_axis: T_TECHNOLOGY
+    tags: [POWER_SYSTEMS, HYDRAULIC]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Hydraulic power generation and distribution"
+    
+  "30":
+    name: ICE_RAIN_PROTECTION
+    optin_axis: T_TECHNOLOGY
+    tags: [ENVIRONMENTAL_PROTECTION, SYSTEMS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Ice and rain protection systems"
+    
+  "31":
+    name: INDICATING_RECORDING
+    optin_axis: T_TECHNOLOGY
+    tags: [AVIONICS, INSTRUMENTS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Instruments and recording systems"
+    
+  "32":
+    name: LANDING_GEAR
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, LANDING_GEAR]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Landing gear system including wheels, brakes, and steering"
+    
+  "33":
+    name: LIGHTS
+    optin_axis: T_TECHNOLOGY
+    tags: [ELECTRICAL, LIGHTING]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Interior and exterior lighting systems"
+    
+  "34":
+    name: NAVIGATION
+    optin_axis: T_TECHNOLOGY
+    tags: [AVIONICS, NAVIGATION]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Navigation systems (GPS, ILS, VOR, etc.)"
+    
+  "35":
+    name: OXYGEN
+    optin_axis: T_TECHNOLOGY
+    tags: [LIFE_SUPPORT, SAFETY]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Supplemental oxygen systems"
+    
+  "36":
+    name: PNEUMATIC
+    optin_axis: T_TECHNOLOGY
+    tags: [POWER_SYSTEMS, PNEUMATIC]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Pneumatic power systems"
+    
+  "37":
+    name: VACUUM
+    optin_axis: T_TECHNOLOGY
+    tags: [POWER_SYSTEMS, VACUUM]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Vacuum systems"
+    
+  "38":
+    name: WATER_WASTE
+    optin_axis: T_TECHNOLOGY
+    tags: [CABIN_SYSTEMS, UTILITIES]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Water and waste systems"
+    
+  "39":
+    name: ELECTRICAL_ELECTRONIC_PANELS
+    optin_axis: T_TECHNOLOGY
+    tags: [ELECTRICAL, AVIONICS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Electrical and electronic equipment panels"
+    
+  "40":
+    name: MULTISYSTEMS
+    optin_axis: T_TECHNOLOGY
+    tags: [INTEGRATED_SYSTEMS, CROSS_CUTTING]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Multi-system interfaces and integration"
+    
+  "41":
+    name: WATER_BALLAST
+    optin_axis: T_TECHNOLOGY
+    tags: [UTILITIES, SYSTEMS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Water ballast systems (if applicable)"
+    
+  "42":
+    name: INTEGRATED_MODULAR_AVIONICS
+    optin_axis: T_TECHNOLOGY
+    tags: [AVIONICS, IMA, COMPUTING]
+    lc_stages: [LC1, LC2, LC3]
+    description: "IMA systems with ARINC 653 partitioning"
+    
+  "44":
+    name: CABIN_SYSTEMS
+    optin_axis: T_TECHNOLOGY
+    tags: [CABIN_SYSTEMS, PASSENGER_SERVICES]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Cabin management and entertainment systems"
+    
+  "45":
+    name: CENTRAL_MAINTENANCE
+    optin_axis: T_TECHNOLOGY
+    tags: [MAINTENANCE, DIAGNOSTICS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Central maintenance system and diagnostics"
+    
+  "46":
+    name: INFORMATION_SYSTEMS
+    optin_axis: T_TECHNOLOGY
+    tags: [AVIONICS, DATA_MANAGEMENT]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Aircraft information systems"
+    
+  "49":
+    name: AIRBORNE_AUXILIARY_POWER
+    optin_axis: T_TECHNOLOGY
+    tags: [POWER_SYSTEMS, APU]
+    lc_stages: [LC1, LC2, LC3]
+    description: "APU and auxiliary power systems"
+
+  # ---------------------------------------------------------------------------
+  # T — TECHNOLOGY: STRUCTURES (ATA 50-57)
+  # ---------------------------------------------------------------------------
+  "51":
+    name: STRUCTURES_GENERAL
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, GENERAL]
+    lc_stages: [LC1, LC2, LC3]
+    description: "General structural information"
+    
+  "52":
+    name: DOORS
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, DOORS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Passenger and cargo doors"
+    
+  "53":
+    name: FUSELAGE
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, FUSELAGE, BWB_CENTER_BODY]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Fuselage structure (BWB center body)"
+    
+  "54":
+    name: NACELLES_PYLONS
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, PROPULSION_INTEGRATION]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Nacelles and engine pylons"
+    
+  "55":
+    name: STABILIZERS
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, EMPENNAGE]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Horizontal and vertical stabilizers"
+    
+  "56":
+    name: WINDOWS
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, WINDOWS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Windows and windshields"
+    
+  "57":
+    name: WINGS
+    optin_axis: T_TECHNOLOGY
+    tags: [STRUCTURES, WINGS, BWB]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Wing structure (blended wing configuration)"
+
+  # ---------------------------------------------------------------------------
+  # T — TECHNOLOGY: PROPULSION (ATA 70-80)
+  # ---------------------------------------------------------------------------
+  "71":
+    name: POWER_PLANT
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, ENGINES]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Power plant general (electric motors)"
+    
+  "72":
+    name: ENGINE
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, TURBINE]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Turbine engines (if hybrid configuration)"
+    
+  "73":
+    name: ENGINE_FUEL_CONTROL
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, FUEL_CONTROL]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Engine fuel and control systems"
+    
+  "74":
+    name: IGNITION
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, IGNITION]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Ignition systems"
+    
+  "75":
+    name: AIR
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, ENGINE_AIR]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Engine air systems"
+    
+  "76":
+    name: ENGINE_CONTROLS
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, CONTROLS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Engine control systems"
+    
+  "77":
+    name: ENGINE_INDICATING
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, INSTRUMENTS]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Engine indicating systems"
+    
+  "78":
+    name: EXHAUST
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, EXHAUST]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Engine exhaust systems"
+    
+  "79":
+    name: OIL
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, LUBRICATION]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Engine oil systems"
+    
+  "80":
+    name: STARTING
+    optin_axis: T_TECHNOLOGY
+    tags: [PROPULSION, STARTING, ELECTRIC]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Engine starting (electric propulsion startup)"
+
+  # ---------------------------------------------------------------------------
+  # AMPEL360 EXTENDED SYSTEMS (ATA 85, 95, 100+)
+  # ---------------------------------------------------------------------------
+  "85":
+    name: GREEN_E_BATTERY
+    optin_axis: T_TECHNOLOGY
+    tags: [ENERGY_STORAGE, BATTERY, AMPEL360_EXTENDED]
+    lc_stages: [LC1, LC2, LC3]
+    description: "Green-E battery energy storage systems"
+    
+  "85-30":
+    name: ANCHORS_CIRCULARITY
+    optin_axis: T_TECHNOLOGY
+    tags: [CIRCULARITY, SUSTAINABILITY, AMPEL360_EXTENDED]
+    lc_stages: [LC1, LC2, LC3]
+    description: "ANCHORS - Aerospace Network for Circular and Holistic Operational Resource Sharing"
+    
+  "95":
+    name: NEURAL_NETWORKS
+    optin_axis: N_NEURAL_NETWORKS
+    tags: [AI_NN, ORCHESTRATION, AMPEL360_EXTENDED]
+    lc_stages: [LC1, LC2, LC3]
+    description: "AI/NN orchestration systems (NN-ECS, NN-FCS, NN-IMA)"
+
+# =============================================================================
+# SECTIONS (4-digit ATA codes) - Examples
+# These are subsections within each system
+# =============================================================================
+sections:
+
+  # ATA 21 - Air Conditioning
+  "2101":
+    name: COMPRESSION
+    parent: "21"
+    description: "Air compression systems"
+    
+  "2102":
+    name: DISTRIBUTION
+    parent: "21"
+    description: "Air distribution"
+    
+  "2103":
+    name: PRESSURIZATION_CONTROL
+    parent: "21"
+    description: "Cabin pressurization control"
+    
+  "2104":
+    name: HEATING
+    parent: "21"
+    description: "Heating systems"
+    
+  "2105":
+    name: COOLING
+    parent: "21"
+    description: "Cooling systems"
+    
+  "2106":
+    name: TEMPERATURE_CONTROL
+    parent: "21"
+    description: "Temperature regulation"
+    
+  "2107":
+    name: HUMIDITY_CONTROL
+    parent: "21"
+    description: "Humidity regulation"
+
+  # ATA 27 - Flight Controls
+  "2701":
+    name: AILERON
+    parent: "27"
+    description: "Aileron control surfaces"
+    
+  "2702":
+    name: RUDDER
+    parent: "27"
+    description: "Rudder control"
+    
+  "2703":
+    name: ELEVATOR
+    parent: "27"
+    description: "Elevator control surfaces"
+    
+  "2704":
+    name: HORIZONTAL_STABILIZER
+    parent: "27"
+    description: "Horizontal stabilizer"
+    
+  "2705":
+    name: FLAPS
+    parent: "27"
+    description: "Flap systems"
+    
+  "2706":
+    name: DRAG_DEVICES
+    parent: "27"
+    description: "Speed brakes and spoilers"
+    
+  "2707":
+    name: GUST_LOCK_DAMPER
+    parent: "27"
+    description: "Gust locks and dampers"
+
+  # ATA 28H - Hydrogen Systems
+  "28H01":
+    name: STORAGE
+    parent: "28H"
+    description: "Cryogenic hydrogen storage tanks"
+    
+  "28H02":
+    name: DISTRIBUTION
+    parent: "28H"
+    description: "Hydrogen distribution and piping"
+    
+  "28H03":
+    name: SAFETY
+    parent: "28H"
+    description: "Hydrogen safety systems"
+    
+  "28H04":
+    name: LEAK_DETECTION
+    parent: "28H"
+    description: "Hydrogen leak detection"
+    
+  "28H05":
+    name: VENTING
+    parent: "28H"
+    description: "Hydrogen venting systems"
+
+  # ATA 42 - Integrated Modular Avionics
+  "4201":
+    name: PROCESSING
+    parent: "42"
+    description: "Core processing modules"
+    
+  "4202":
+    name: NETWORK
+    parent: "42"
+    description: "IMA network (ARINC 664)"
+    
+  "4203":
+    name: IO_MODULES
+    parent: "42"
+    description: "Input/output modules"
+    
+  "4204":
+    name: PARTITIONING
+    parent: "42"
+    description: "ARINC 653 partitioning"
+
+  # ATA 57 - Wings
+  "5701":
+    name: CENTER_SECTION
+    parent: "57"
+    description: "Center wing section"
+    
+  "5702":
+    name: OUTER_WING
+    parent: "57"
+    description: "Outer wing panels"
+    
+  "5703":
+    name: WING_TIPS
+    parent: "57"
+    description: "Wing tips and devices"
+    
+  "5704":
+    name: LEADING_EDGE
+    parent: "57"
+    description: "Leading edge devices"
+    
+  "5705":
+    name: TRAILING_EDGE
+    parent: "57"
+    description: "Trailing edge devices"
+    
+  "5723":
+    name: SLATS
+    parent: "57"
+    description: "Leading edge slats"
+
+  # ATA 85 - Green-E Battery
+  "8501":
+    name: BATTERY_PACK
+    parent: "85"
+    description: "Battery pack assembly"
+    
+  "8502":
+    name: THERMAL_MANAGEMENT
+    parent: "85"
+    description: "Battery thermal management"
+    
+  "8503":
+    name: BATTERY_MANAGEMENT_SYSTEM
+    parent: "85"
+    description: "Battery management electronics"
+    
+  "8504":
+    name: CHARGING
+    parent: "85"
+    description: "Battery charging systems"
+    
+  "8505":
+    name: MONITORING
+    parent: "85"
+    description: "State of health monitoring"
+
+  # ATA 95 - Neural Networks
+  "9501":
+    name: NN_FCS
+    parent: "95"
+    description: "Neural network flight control system"
+    
+  "9502":
+    name: NN_ECS
+    parent: "95"
+    description: "Neural network environmental control"
+    
+  "9503":
+    name: NN_IMA
+    parent: "95"
+    description: "Neural network integrated modular avionics"
+    
+  "9504":
+    name: NN_TRAINING
+    parent: "95"
+    description: "Neural network training infrastructure"
+    
+  "9505":
+    name: NN_MONITORING
+    parent: "95"
+    description: "Neural network health monitoring"
+
+# =============================================================================
+# SUBJECTS (6-digit ATA codes) - Examples
+# These are detailed subjects within sections
+# =============================================================================
+subjects:
+
+  # ATA 21 - ECS detailed
+  "210501":
+    name: ECS_SENSOR
+    parent: "2105"
+    description: "Environmental control system sensors"
+    
+  "210601":
+    name: CABIN_TEMP
+    parent: "2106"
+    description: "Cabin temperature sensors and control"
+
+  # ATA 57 - Wings detailed
+  "572301":
+    name: FLAP_WELL_ENV
+    parent: "5723"
+    description: "Flap well envelope and structure"
+    
+  "572302":
+    name: SLAT_ACTUATOR
+    parent: "5723"
+    description: "Slat actuation mechanisms"
+    
+  "572303":
+    name: SLAT_TRACKS
+    parent: "5723"
+    description: "Slat track systems"
+
+  # ATA 95 - NN systems detailed
+  "950201":
+    name: NN_ECS_CABIN_TEMP
+    parent: "9502"
+    description: "NN-ECS cabin temperature optimization"
+    
+  "950202":
+    name: NN_ECS_PRESSURE
+    parent: "9502"
+    description: "NN-ECS cabin pressure optimization"
+    
+  "950301":
+    name: NN_IMA_RESOURCE
+    parent: "9503"
+    description: "NN-IMA resource allocation"
+    
+  "953021":
+    name: NN_ECS_CABIN_TEMP
+    parent: "95"
+    description: "Neural network ECS cabin temperature model"
+
+# =============================================================================
+# FALLBACK BEHAVIOR
+# =============================================================================
+# If a code is not found in this map:
+# - System level: UNKNOWN_ATA_{code}
+# - Section level: Extract system + _UNKNOWN_SECTION_{section}
+# - Subject level: Extract system + section + _UNKNOWN_SUBJECT_{subject}
+# =============================================================================

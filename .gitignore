@@ -1,0 +1,4 @@
+# AMPEL360-BWB .gitignore
+# GitHub Actions Reports
+.github/reports/*.json
+.github/reports/*.md
