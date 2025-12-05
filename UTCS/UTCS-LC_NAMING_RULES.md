@@ -201,9 +201,9 @@ Standard file extensions based on artefact type:
 | Extension | Type |
 |-----------|------|
 | `.md` | Markdown documentation |
-| `.pdf` | PDF documents |
+| `.md` | PDF documents |
 | `.docx` | Word documents |
-| `.xlsx` | Excel spreadsheets |
+| `.csv` | Excel spreadsheets |
 | `.catpart` | CATIA part file |
 | `.catproduct` | CATIA assembly |
 | `.sldprt` | SolidWorks part |
@@ -231,56 +231,56 @@ Standard file extensions based on artefact type:
 
 ```
 # Concept-level trade study
-LC-11_00-GENERAL_TRADE-STUDY-BWB-CONFIG_V1R0.pdf
+LC-11_00-GENERAL_TRADE-STUDY-BWB-CONFIG_V1R0.md
 ```
-<span style="color:#0066cc">**LC-11**</span>_<span style="color:#cc6600">**00**</span>-<span style="color:#666666">**GENERAL**</span>_<span style="color:#009900">**TRADE-STUDY-BWB-CONFIG**</span>_<span style="color:#990099">**V1R0**</span>.pdf
+<span style="color:#0066cc">**LC-11**</span>_<span style="color:#cc6600">**00**</span>-<span style="color:#666666">**GENERAL**</span>_<span style="color:#009900">**TRADE-STUDY-BWB-CONFIG**</span>_<span style="color:#990099">**V1R0**</span>.md
 
 ```
 # Safety analysis for flight controls
-LC-12_27-FLIGHT-CONTROLS_FHA-FCS_V1R0.pdf
-LC-12_27-FLIGHT-CONTROLS_PSSA-FCS_V1R1.pdf
+LC-12_27-FLIGHT-CONTROLS_FHA-FCS_V1R0.md
+LC-12_27-FLIGHT-CONTROLS_PSSA-FCS_V1R1.md
 
 # System requirements document
-LC-13_00-GENERAL_SRD-AIRCRAFT-LEVEL_V2R0.pdf
-LC-13_2800-HYDROGEN_SUBSYS-REQUIREMENTS_V1R0.pdf
+LC-13_00-GENERAL_SRD-AIRCRAFT-LEVEL_V2R0.md
+LC-13_2800-HYDROGEN_SUBSYS-REQUIREMENTS_V1R0.md
 
 # CAD model for hydrogen tank
 LC-14_2800-HYDROGEN_CAD-TANK-ASSY_V3R2.catproduct
 
 # Interface control document for AFDX
-LC-15_42-IMA_ICD-AFDX-NETWORK_V1R0.pdf
+LC-15_42-IMA_ICD-AFDX-NETWORK_V1R0.md
 
 # CFD analysis for wing
 LC-16_5700-WINGS_CFD-CRUISE_V2R1.dat
 
 # Verification test plan for NN systems
-LC-17_9500-NN-SYSTEMS_TEST-PLAN-NN-FCS_V1R0.pdf
+LC-17_9500-NN-SYSTEMS_TEST-PLAN-NN-FCS_V1R0.md
 ```
 
 ### 5.2 Manufacturing Stage Examples
 
 ```
 # Prototype build instructions
-LC-21_5700-WINGS_PROTOTYPE-BUILD-INSTR_V1R0.pdf
+LC-21_5700-WINGS_PROTOTYPE-BUILD-INSTR_V1R0.md
 
 # Flight test report
-LC-22_00-GENERAL_FLIGHT-TEST-REPORT_V1R0.pdf
+LC-22_00-GENERAL_FLIGHT-TEST-REPORT_V1R0.md
 
 # Final assembly line plan
-LC-23_00-GENERAL_FAL-PLAN-STATION-3_V2R0.pdf
+LC-23_00-GENERAL_FAL-PLAN-STATION-3_V2R0.md
 
 # Supplier technical package
-LC-24_8000-ELECTRIC-PROPULSION_SUPPLIER-PKG-MOTOR_V1R0.pdf
+LC-24_8000-ELECTRIC-PROPULSION_SUPPLIER-PKG-MOTOR_V1R0.md
 ```
 
 ### 5.3 Operations Stage Examples
 
 ```
 # Configuration baseline
-LC-31_00-GENERAL_CONFIG-BASELINE-AC001_V5R2.pdf
+LC-31_00-GENERAL_CONFIG-BASELINE-AC001_V5R2.md
 
 # MRO procedure
-LC-32_2100-AIR-CONDITIONING_MROPROC-ECS-SENSOR_V1R0.pdf
+LC-32_2100-AIR-CONDITIONING_MROPROC-ECS-SENSOR_V1R0.md
 
 # IETP module
 LC-33_2700-FLIGHT-CONTROLS_IETP-FCS-MAINTENANCE_V1R0.xml

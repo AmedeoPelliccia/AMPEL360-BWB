@@ -56,22 +56,22 @@ LC-24_00-GENERAL_SUPPLY-CHAIN/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Supplier_Packages/
-│   ├── LC-24_5700-WINGS_SUPPLIER-PKG-COMPOSITE_V*R*.pdf
-│   ├── LC-24_2800-HYDROGEN_SUPPLIER-PKG-TANKS_V*R*.pdf
-│   └── LC-24_8000-ELECTRIC-PROPULSION_SUPPLIER-PKG-MOTORS_V*R*.pdf
+│   ├── LC-24_5700-WINGS_SUPPLIER-PKG-COMPOSITE_V*R*.md
+│   ├── LC-24_2800-HYDROGEN_SUPPLIER-PKG-TANKS_V*R*.md
+│   └── LC-24_8000-ELECTRIC-PROPULSION_SUPPLIER-PKG-MOTORS_V*R*.md
 ├── Procurement/
-│   ├── LC-24_00-GENERAL_PROCUREMENT-SPEC-MASTER_V*R*.pdf
+│   ├── LC-24_00-GENERAL_PROCUREMENT-SPEC-MASTER_V*R*.md
 │   ├── Contracts/
 │   └── Supplier_Qualifications/
 └── Industrialization/
-    ├── LC-24_00-GENERAL_INDUSTRIAL-READINESS-ASSESSMENT_V*R*.pdf
+    ├── LC-24_00-GENERAL_INDUSTRIAL-READINESS-ASSESSMENT_V*R*.md
     ├── Supplier_Audits/
     └── Production_Capacity_Analysis/
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-24`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-24`</span>`_`<span style="color:#cc6600">`8000`</span>`-`<span style="color:#666666">`ELECTRIC-PROPULSION`</span>`_`<span style="color:#009900">`SUPPLIER-PKG-MOTOR`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-24`</span>`_`<span style="color:#cc6600">`8000`</span>`-`<span style="color:#666666">`ELECTRIC-PROPULSION`</span>`_`<span style="color:#009900">`SUPPLIER-PKG-MOTOR`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
 
 ---
 

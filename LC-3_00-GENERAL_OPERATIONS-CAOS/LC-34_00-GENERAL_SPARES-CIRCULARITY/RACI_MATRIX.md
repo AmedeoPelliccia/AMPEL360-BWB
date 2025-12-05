@@ -56,11 +56,11 @@ LC-34_00-GENERAL_SPARES-CIRCULARITY/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Spares_Catalogue/
-│   ├── LC-34_00-GENERAL_SPARES-CATALOGUE-MASTER_V*R*.xlsx
+│   ├── LC-34_00-GENERAL_SPARES-CATALOGUE-MASTER_V*R*.csv
 │   ├── Part_Number_Registry/
 │   └── Provisioning_Data/
 ├── Circularity/
-│   ├── LC-34_00-GENERAL_CIRCULARITY-PROGRAM_V*R*.pdf
+│   ├── LC-34_00-GENERAL_CIRCULARITY-PROGRAM_V*R*.md
 │   ├── Material_Recovery_Procedures/
 │   ├── Battery_Second_Life/
 │   └── Recycling_Programs/
@@ -72,9 +72,9 @@ LC-34_00-GENERAL_SPARES-CIRCULARITY/
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`SPARES-CATALOGUE-MASTER`</span>`_`<span style="color:#990099">`V1R0`</span>`.xlsx`
+- **Example:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`SPARES-CATALOGUE-MASTER`</span>`_`<span style="color:#990099">`V1R0`</span>`.csv`
 - **Example:** `LC-34_8500-GREEN-E-BATTERY_DPP-BATTERY-PACK-001_V1R0.json`
-- **Example:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CIRCULARITY-PROGRAM`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-34`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CIRCULARITY-PROGRAM`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
 
 ---
 

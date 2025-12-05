@@ -33,11 +33,11 @@ This guide defines the color coding scheme for UTCS-LC identifiers to provide vi
 
 ### Basic Format
 ```html
-<span style="color:#0066cc">LC-11</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONCEPT-BASELINE</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-11</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONCEPT-BASELINE</span>_<span style="color:#990099">V1R0</span>.md
 ```
 
 **Renders as:**
-<span style="color:#0066cc">LC-11</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONCEPT-BASELINE</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-11</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONCEPT-BASELINE</span>_<span style="color:#990099">V1R0</span>.md
 
 ### Advanced Examples
 
@@ -55,21 +55,21 @@ This guide defines the color coding scheme for UTCS-LC identifiers to provide vi
 
 #### NN Systems Verification
 ```html
-<span style="color:#0066cc">LC-17</span>_<span style="color:#cc6600">9500</span>-<span style="color:#666666">NN-SYSTEMS</span>_<span style="color:#009900">TEST-PLAN-NN-FCS</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-17</span>_<span style="color:#cc6600">9500</span>-<span style="color:#666666">NN-SYSTEMS</span>_<span style="color:#009900">TEST-PLAN-NN-FCS</span>_<span style="color:#990099">V1R0</span>.md
 ```
-<span style="color:#0066cc">LC-17</span>_<span style="color:#cc6600">9500</span>-<span style="color:#666666">NN-SYSTEMS</span>_<span style="color:#009900">TEST-PLAN-NN-FCS</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-17</span>_<span style="color:#cc6600">9500</span>-<span style="color:#666666">NN-SYSTEMS</span>_<span style="color:#009900">TEST-PLAN-NN-FCS</span>_<span style="color:#990099">V1R0</span>.md
 
 #### Manufacturing - Test Report
 ```html
-<span style="color:#0066cc">LC-22</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FLIGHT-TEST-REPORT</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-22</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FLIGHT-TEST-REPORT</span>_<span style="color:#990099">V1R0</span>.md
 ```
-<span style="color:#0066cc">LC-22</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FLIGHT-TEST-REPORT</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-22</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FLIGHT-TEST-REPORT</span>_<span style="color:#990099">V1R0</span>.md
 
 #### Operations - MRO Procedure
 ```html
-<span style="color:#0066cc">LC-32</span>_<span style="color:#cc6600">2100</span>-<span style="color:#666666">AIR-CONDITIONING</span>_<span style="color:#009900">MROPROC-ECS-SENSOR</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-32</span>_<span style="color:#cc6600">2100</span>-<span style="color:#666666">AIR-CONDITIONING</span>_<span style="color:#009900">MROPROC-ECS-SENSOR</span>_<span style="color:#990099">V1R0</span>.md
 ```
-<span style="color:#0066cc">LC-32</span>_<span style="color:#cc6600">2100</span>-<span style="color:#666666">AIR-CONDITIONING</span>_<span style="color:#009900">MROPROC-ECS-SENSOR</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-32</span>_<span style="color:#cc6600">2100</span>-<span style="color:#666666">AIR-CONDITIONING</span>_<span style="color:#009900">MROPROC-ECS-SENSOR</span>_<span style="color:#990099">V1R0</span>.md
 
 #### Circularity - Digital Product Passport
 ```html

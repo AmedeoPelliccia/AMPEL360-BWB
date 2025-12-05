@@ -56,22 +56,22 @@ LC-31_00-GENERAL_CONFIGURATION/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Configuration_Baselines/
-│   ├── LC-31_00-GENERAL_CONFIG-BASELINE-PROTO_V*R*.pdf
-│   ├── LC-31_00-GENERAL_CONFIG-BASELINE-PROD_V*R*.pdf
-│   └── LC-31_00-GENERAL_CONFIG-BASELINE-FLEET_V*R*.pdf
+│   ├── LC-31_00-GENERAL_CONFIG-BASELINE-PROTO_V*R*.md
+│   ├── LC-31_00-GENERAL_CONFIG-BASELINE-PROD_V*R*.md
+│   └── LC-31_00-GENERAL_CONFIG-BASELINE-FLEET_V*R*.md
 ├── Change_Requests/
-│   ├── ECO_Database.xlsx
-│   ├── LC-31_00-GENERAL_ECO-*_V*R*.pdf
+│   ├── ECO_Database.csv
+│   ├── LC-31_00-GENERAL_ECO-*_V*R*.md
 │   └── Change_Impact_Assessments/
 └── Approval_Documentation/
-    ├── LC-31_00-GENERAL_APPROVAL-LOG_V*R*.xlsx
+    ├── LC-31_00-GENERAL_APPROVAL-LOG_V*R*.csv
     └── Authority_Approvals/
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-31`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-31`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CONFIG-BASELINE-PROD`</span>`_`<span style="color:#990099">`V5R2`</span>`.pdf`
-- **Example:** `LC-31_2700-FLIGHT-CONTROLS_ECO-12345_V1R0.pdf`
+- **Example:** <span style="color:#0066cc">`LC-31`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CONFIG-BASELINE-PROD`</span>`_`<span style="color:#990099">`V5R2`</span>`.md`
+- **Example:** `LC-31_2700-FLIGHT-CONTROLS_ECO-12345_V1R0.md`
 
 ---
 

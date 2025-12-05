@@ -94,9 +94,9 @@ LC-14_00-GENERAL_DESIGN/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Preliminary_Design/
-│   ├── LC-14_00-GENERAL_SYSTEM-ARCHITECTURE-DIAGRAMS_V*.pdf
-│   ├── LC-14_00-GENERAL_CONCEPT-LAYOUTS_V*.pdf
-│   └── LC-14_00-GENERAL_SIZING-STUDIES_V*.xlsx
+│   ├── LC-14_00-GENERAL_SYSTEM-ARCHITECTURE-DIAGRAMS_V*.md
+│   ├── LC-14_00-GENERAL_CONCEPT-LAYOUTS_V*.md
+│   └── LC-14_00-GENERAL_SIZING-STUDIES_V*.csv
 ├── CAD_Models/
 │   ├── Master_Geometry/
 │   │   ├── LC-14_5100-FUSELAGE_BWB-FUSELAGE_V*.catpart
@@ -112,22 +112,22 @@ LC-14_00-GENERAL_DESIGN/
 │   │   └── [Other ATA chapters...]
 │   └── 2D_Drawings/
 ├── Schematics/
-│   ├── LC-14_2400-ELECTRICAL-POWER_ELECTRICAL-DIAGRAMS_V*.pdf
-│   ├── LC-14_2900-HYDRAULIC-POWER_HYD-PNEUMATIC-DIAGRAMS_V*.pdf
-│   ├── LC-14_2700-FLIGHT-CONTROLS_CONTROL-LOGIC-DIAGRAMS_V*.pdf
-│   └── LC-14_4200-IMA_DATA-BUS-ARCHITECTURE_V*.pdf
+│   ├── LC-14_2400-ELECTRICAL-POWER_ELECTRICAL-DIAGRAMS_V*.md
+│   ├── LC-14_2900-HYDRAULIC-POWER_HYD-PNEUMATIC-DIAGRAMS_V*.md
+│   ├── LC-14_2700-FLIGHT-CONTROLS_CONTROL-LOGIC-DIAGRAMS_V*.md
+│   └── LC-14_4200-IMA_DATA-BUS-ARCHITECTURE_V*.md
 └── ATA_Design_Documentation/
-    ├── LC-14_2100-AIR-CONDITIONING_DESIGN-DESCRIPTION_V*.pdf
-    ├── LC-14_2700-FLIGHT-CONTROLS_DESIGN-DESCRIPTION_V*.pdf
-    ├── LC-14_2800-HYDROGEN_DESIGN-DESCRIPTION_V*.pdf
+    ├── LC-14_2100-AIR-CONDITIONING_DESIGN-DESCRIPTION_V*.md
+    ├── LC-14_2700-FLIGHT-CONTROLS_DESIGN-DESCRIPTION_V*.md
+    ├── LC-14_2800-HYDROGEN_DESIGN-DESCRIPTION_V*.md
     └── [Other ATA chapters...]
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`27`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`PRELIM-DESIGN`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`27`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`PRELIM-DESIGN`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
 - **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`2800`</span>`-`<span style="color:#666666">`HYDROGEN`</span>`_`<span style="color:#009900">`CAD-TANK-ASSY`</span>`_`<span style="color:#990099">`V2R1`</span>`.catproduct`
-- **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`SCHEMATIC-NN-FCS`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-14`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`SCHEMATIC-NN-FCS`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
 
 ---
 

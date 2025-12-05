@@ -75,23 +75,23 @@ LC-21_00-GENERAL_PROTOTYPING/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Build_Instructions/
-│   ├── LC-21_5100-FUSELAGE_BUILD-INSTR-PROTO1_V*R*.pdf
-│   ├── LC-21_5700-WINGS_BUILD-INSTR-PROTO1_V*R*.pdf
-│   └── LC-21_2800-HYDROGEN_BUILD-INSTR-TANK_V*R*.pdf
+│   ├── LC-21_5100-FUSELAGE_BUILD-INSTR-PROTO1_V*R*.md
+│   ├── LC-21_5700-WINGS_BUILD-INSTR-PROTO1_V*R*.md
+│   └── LC-21_2800-HYDROGEN_BUILD-INSTR-TANK_V*R*.md
 ├── Configuration_Baselines/
-│   ├── LC-21_00-GENERAL_PROTO1-CONFIG-BASELINE_V*R*.pdf
-│   ├── LC-21_00-GENERAL_PROTO1-DEVIATION-LOG_V*R*.xlsx
+│   ├── LC-21_00-GENERAL_PROTO1-CONFIG-BASELINE_V*R*.md
+│   ├── LC-21_00-GENERAL_PROTO1-DEVIATION-LOG_V*R*.csv
 │   └── As_Built_Documentation/
 └── Test_Articles/
-    ├── LC-21_5700-WINGS_TEST-ARTICLE-STATIC_V*R*.pdf
-    ├── LC-21_5100-FUSELAGE_TEST-ARTICLE-FATIGUE_V*R*.pdf
-    └── LC-21_2800-HYDROGEN_TEST-ARTICLE-PRESSURE_V*R*.pdf
+    ├── LC-21_5700-WINGS_TEST-ARTICLE-STATIC_V*R*.md
+    ├── LC-21_5100-FUSELAGE_TEST-ARTICLE-FATIGUE_V*R*.md
+    └── LC-21_2800-HYDROGEN_TEST-ARTICLE-PRESSURE_V*R*.md
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-21`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** `LC-21_5100-FUSELAGE_BUILD-INSTR-PROTO1_V1R0.pdf`
-- **Example:** `LC-21_00-GENERAL_PROTO1-CONFIG-BASELINE_V1R2.pdf`
+- **Example:** `LC-21_5100-FUSELAGE_BUILD-INSTR-PROTO1_V1R0.md`
+- **Example:** `LC-21_00-GENERAL_PROTO1-CONFIG-BASELINE_V1R2.md`
 
 ---
 

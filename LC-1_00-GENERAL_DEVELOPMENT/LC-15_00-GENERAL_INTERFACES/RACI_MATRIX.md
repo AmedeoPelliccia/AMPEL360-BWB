@@ -93,33 +93,33 @@ LC-15_00-GENERAL_INTERFACES/
 ├── README.md
 ├── ICD_Interface_Control_Documents/
 │   ├── Mechanical_Interfaces/
-│   │   ├── Structural_Attach_Points_ICD_V*.pdf
-│   │   ├── Fastener_Standards_ICD_V*.pdf
-│   │   └── Mounting_Interfaces_ICD_V*.pdf
+│   │   ├── Structural_Attach_Points_ICD_V*.md
+│   │   ├── Fastener_Standards_ICD_V*.md
+│   │   └── Mounting_Interfaces_ICD_V*.md
 │   ├── Electrical_Interfaces/
-│   │   ├── Power_Distribution_ICD_V*.pdf
-│   │   ├── Connector_Standards_ICD_V*.pdf
-│   │   └── Wire_Harness_ICD_V*.pdf
+│   │   ├── Power_Distribution_ICD_V*.md
+│   │   ├── Connector_Standards_ICD_V*.md
+│   │   └── Wire_Harness_ICD_V*.md
 │   ├── Data_Interfaces/
-│   │   ├── AFDX_Network_ICD_V*.pdf
-│   │   ├── ARINC_429_ICD_V*.pdf
-│   │   ├── CAN_Bus_ICD_V*.pdf
-│   │   └── NN_Bus_ICD_V*.pdf
+│   │   ├── AFDX_Network_ICD_V*.md
+│   │   ├── ARINC_429_ICD_V*.md
+│   │   ├── CAN_Bus_ICD_V*.md
+│   │   └── NN_Bus_ICD_V*.md
 │   └── Software_Interfaces/
-│       ├── API_Specifications_V*.pdf
-│       └── Service_Interfaces_V*.pdf
+│       ├── API_Specifications_V*.md
+│       └── Service_Interfaces_V*.md
 ├── Assembly_Trees/
-│   ├── Aircraft_Assembly_Breakdown_V*.pdf
-│   ├── BOM_Structure_V*.xlsx
+│   ├── Aircraft_Assembly_Breakdown_V*.md
+│   ├── BOM_Structure_V*.csv
 │   └── Assembly_Sequence_Plans/
 ├── Bus_Architecture/
-│   ├── AFDX_Topology_V*.pdf
-│   ├── ARINC_429_Bus_Allocation_V*.pdf
-│   ├── CAN_Bus_Architecture_V*.pdf
-│   ├── NN_Bus_Specification_V*.pdf
+│   ├── AFDX_Topology_V*.md
+│   ├── ARINC_429_Bus_Allocation_V*.md
+│   ├── CAN_Bus_Architecture_V*.md
+│   ├── NN_Bus_Specification_V*.md
 │   └── Network_Bandwidth_Analysis/
 └── Installation_Rules/
-    ├── Installation_Standards_Manual_V*.pdf
+    ├── Installation_Standards_Manual_V*.md
     ├── Torque_Specifications/
     ├── Wire_Routing_Standards/
     └── Maintenance_Access_Requirements/
@@ -127,9 +127,9 @@ LC-15_00-GENERAL_INTERFACES/
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`42`</span>`-`<span style="color:#666666">`IMA`</span>`_`<span style="color:#009900">`ICD-AFDX-NETWORK`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
-- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`ASSEMBLY-TREE-AIRCRAFT`</span>`_`<span style="color:#990099">`V2R1`</span>`.xlsx`
-- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`95`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`ICD-NN-BUS`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`42`</span>`-`<span style="color:#666666">`IMA`</span>`_`<span style="color:#009900">`ICD-AFDX-NETWORK`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
+- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`ASSEMBLY-TREE-AIRCRAFT`</span>`_`<span style="color:#990099">`V2R1`</span>`.csv`
+- **Example:** <span style="color:#0066cc">`LC-15`</span>`_`<span style="color:#cc6600">`95`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`ICD-NN-BUS`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
 
 ---
 

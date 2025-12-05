@@ -94,30 +94,30 @@ LC-17_00-GENERAL_VERIFICATION/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Test_Plans/
-│   ├── LC-17_00-GENERAL_MASTER-TEST-PLAN_V*R*.pdf
-│   ├── LC-17_2700-FLIGHT-CONTROLS_TEST-PLAN-FCS_V*R*.pdf
-│   ├── LC-17_2800-HYDROGEN_TEST-PLAN-H2_V*R*.pdf
-│   └── LC-17_9500-NN-SYSTEMS_TEST-PLAN-NN_V*R*.pdf
+│   ├── LC-17_00-GENERAL_MASTER-TEST-PLAN_V*R*.md
+│   ├── LC-17_2700-FLIGHT-CONTROLS_TEST-PLAN-FCS_V*R*.md
+│   ├── LC-17_2800-HYDROGEN_TEST-PLAN-H2_V*R*.md
+│   └── LC-17_9500-NN-SYSTEMS_TEST-PLAN-NN_V*R*.md
 ├── Verification_Matrix/
-│   ├── LC-17_00-GENERAL_VERIFICATION-MATRIX_V*R*.xlsx
-│   ├── LC-17_00-GENERAL_TRACEABILITY-MATRIX_V*R*.xlsx
+│   ├── LC-17_00-GENERAL_VERIFICATION-MATRIX_V*R*.csv
+│   ├── LC-17_00-GENERAL_TRACEABILITY-MATRIX_V*R*.csv
 │   └── Verification_Status_Reports/
 ├── Simulation_Validation/
-│   ├── LC-17_2700-FLIGHT-CONTROLS_VALIDATION-FCS-SIM_V*R*.pdf
-│   ├── LC-17_5700-WINGS_VALIDATION-CFD_V*R*.pdf
-│   └── LC-17_9500-NN-SYSTEMS_VALIDATION-NN-MODEL_V*R*.pdf
+│   ├── LC-17_2700-FLIGHT-CONTROLS_VALIDATION-FCS-SIM_V*R*.md
+│   ├── LC-17_5700-WINGS_VALIDATION-CFD_V*R*.md
+│   └── LC-17_9500-NN-SYSTEMS_VALIDATION-NN-MODEL_V*R*.md
 └── Certification_Package/
-    ├── LC-17_00-GENERAL_CERT-BASIS_V*R*.pdf
-    ├── LC-17_00-GENERAL_COMPLIANCE-MATRIX_V*R*.xlsx
+    ├── LC-17_00-GENERAL_CERT-BASIS_V*R*.md
+    ├── LC-17_00-GENERAL_COMPLIANCE-MATRIX_V*R*.csv
     ├── TC_Application_Documents/
     └── Authority_Correspondence/
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`MASTER-TEST-PLAN`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
-- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`2700`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`VNVREP-FCS`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
-- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`CERT-EVIDENCE-NN`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`MASTER-TEST-PLAN`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
+- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`2700`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`VNVREP-FCS`</span>`_`<span style="color:#990099">`V2R1`</span>`.md`
+- **Example:** <span style="color:#0066cc">`LC-17`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`CERT-EVIDENCE-NN`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
 
 ---
 

@@ -47,7 +47,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Aerodynamics & Structures Leads
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-11</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONCEPT-BASELINE</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-11</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONCEPT-BASELINE</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -64,7 +64,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Risk & Compliance
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-12</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FHA-AIRCRAFT-LEVEL</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-12</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FHA-AIRCRAFT-LEVEL</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -81,7 +81,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Architecture Board
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-13</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">SRD-AIRCRAFT-LEVEL</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-13</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">SRD-AIRCRAFT-LEVEL</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -115,7 +115,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Avionics/Power/Mechanical System Leads
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-15</span>_<span style="color:#cc6600">42</span>-<span style="color:#666666">IMA</span>_<span style="color:#009900">ICD-AFDX-NETWORK</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-15</span>_<span style="color:#cc6600">42</span>-<span style="color:#666666">IMA</span>_<span style="color:#009900">ICD-AFDX-NETWORK</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -149,7 +149,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - MBSE Team
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-17</span>_<span style="color:#cc6600">9500</span>-<span style="color:#666666">NN-SYSTEMS</span>_<span style="color:#009900">TEST-PLAN-NN-FCS</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-17</span>_<span style="color:#cc6600">9500</span>-<span style="color:#666666">NN-SYSTEMS</span>_<span style="color:#009900">TEST-PLAN-NN-FCS</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -167,7 +167,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Prototype Shop
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-21</span>_<span style="color:#cc6600">5100</span>-<span style="color:#666666">FUSELAGE</span>_<span style="color:#009900">BUILD-INSTR-PROTO1</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-21</span>_<span style="color:#cc6600">5100</span>-<span style="color:#666666">FUSELAGE</span>_<span style="color:#009900">BUILD-INSTR-PROTO1</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -184,7 +184,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Certification Authorities
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-22</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FLIGHT-TEST-REPORT</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-22</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">FLIGHT-TEST-REPORT</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -201,7 +201,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Supply Chain
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-23</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">BOM-MASTER</span>_<span style="color:#990099">V1R0</span>.xlsx
+<span style="color:#0066cc">LC-23</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">BOM-MASTER</span>_<span style="color:#990099">V1R0</span>.csv
 
 ---
 
@@ -218,7 +218,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Production Engineering
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-24</span>_<span style="color:#cc6600">8000</span>-<span style="color:#666666">ELECTRIC-PROPULSION</span>_<span style="color:#009900">SUPPLIER-PKG-MOTOR</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-24</span>_<span style="color:#cc6600">8000</span>-<span style="color:#666666">ELECTRIC-PROPULSION</span>_<span style="color:#009900">SUPPLIER-PKG-MOTOR</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 
@@ -237,7 +237,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - MRO
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-31</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONFIG-BASELINE-PROD</span>_<span style="color:#990099">V5R2</span>.pdf
+<span style="color:#0066cc">LC-31</span>_<span style="color:#cc6600">00</span>-<span style="color:#666666">GENERAL</span>_<span style="color:#009900">CONFIG-BASELINE-PROD</span>_<span style="color:#990099">V5R2</span>.md
 
 ---
 
@@ -254,7 +254,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 - Operations
 
 **Example Artefact:**
-<span style="color:#0066cc">LC-32</span>_<span style="color:#cc6600">2100</span>-<span style="color:#666666">AIR-CONDITIONING</span>_<span style="color:#009900">MROPROC-ECS-SENSOR</span>_<span style="color:#990099">V1R0</span>.pdf
+<span style="color:#0066cc">LC-32</span>_<span style="color:#cc6600">2100</span>-<span style="color:#666666">AIR-CONDITIONING</span>_<span style="color:#009900">MROPROC-ECS-SENSOR</span>_<span style="color:#990099">V1R0</span>.md
 
 ---
 

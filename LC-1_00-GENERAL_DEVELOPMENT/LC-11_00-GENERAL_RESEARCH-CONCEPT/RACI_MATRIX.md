@@ -113,7 +113,7 @@ LC-11_00-GENERAL_RESEARCH-CONCEPT/
 All artefacts in this stage follow the UTCS-LC naming standard:
 - **Format:** <span style="color:#0066cc">`LC-11`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
 - **Example:** <span style="color:#0066cc">`LC-11`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`CONCEPT-BASELINE`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
-- **Example:** <span style="color:#0066cc">`LC-11`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`TRADE-STUDY-BWB`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-11`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`TRADE-STUDY-BWB`</span>`_`<span style="color:#990099">`V2R1`</span>`.md`
 
 See [UTCS-LC Naming Rules](../../UTCS/UTCS-LC_NAMING_RULES.md) for complete specification.
 

@@ -93,32 +93,32 @@ LC-12_00-GENERAL_SAFETY-ANALYSIS/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── FHA_Functional_Hazard_Assessment/
-│   ├── LC-12_00-GENERAL_FHA-AIRCRAFT-LEVEL_V*.pdf
-│   ├── LC-12_27-FLIGHT-CONTROLS_FHA-SYSTEM-LEVEL_V*.pdf
-│   └── LC-12_00-GENERAL_FAILURE-CONDITIONS-DB_V*.xlsx
+│   ├── LC-12_00-GENERAL_FHA-AIRCRAFT-LEVEL_V*.md
+│   ├── LC-12_27-FLIGHT-CONTROLS_FHA-SYSTEM-LEVEL_V*.md
+│   └── LC-12_00-GENERAL_FAILURE-CONDITIONS-DB_V*.csv
 ├── PSSA_Preliminary_System_Safety_Assessment/
-│   ├── LC-12_00-GENERAL_PSSA-REPORT_V*.pdf
+│   ├── LC-12_00-GENERAL_PSSA-REPORT_V*.md
 │   ├── FTA_Fault_Trees/
 │   ├── FMEA_Analysis/
 │   └── Common_Cause_Analysis/
 ├── SSA_System_Safety_Assessment/
-│   ├── LC-12_00-GENERAL_SSA-REPORT_V*.pdf
+│   ├── LC-12_00-GENERAL_SSA-REPORT_V*.md
 │   ├── Safety_Validation_Evidence/
 │   └── Certification_Evidence_Package/
 ├── DAL_Allocation/
-│   ├── LC-12_00-GENERAL_DAL-MATRIX_V*.xlsx
-│   ├── LC-12_00-GENERAL_SOFTWARE-DAL-ASSIGNMENT_V*.pdf
-│   └── LC-12_00-GENERAL_HARDWARE-DAL-ASSIGNMENT_V*.pdf
+│   ├── LC-12_00-GENERAL_DAL-MATRIX_V*.csv
+│   ├── LC-12_00-GENERAL_SOFTWARE-DAL-ASSIGNMENT_V*.md
+│   └── LC-12_00-GENERAL_HARDWARE-DAL-ASSIGNMENT_V*.md
 └── Hazard_Logs/
-    ├── LC-12_00-GENERAL_MASTER-HAZARD-LOG_V*.xlsx
+    ├── LC-12_00-GENERAL_MASTER-HAZARD-LOG_V*.csv
     └── Hazard_Status_Reports/
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-12`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-12`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`FHA-AIRCRAFT-LEVEL`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
-- **Example:** <span style="color:#0066cc">`LC-12`</span>`_`<span style="color:#cc6600">`22`</span>`-`<span style="color:#666666">`AUTOFLIGHT`</span>`_`<span style="color:#009900">`PSSA-FCS-SAFETY`</span>`_`<span style="color:#990099">`V2R1`</span>`.pdf`
-- **Example:** <span style="color:#0066cc">`LC-12`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`DAL-MATRIX-NN-FCS`</span>`_`<span style="color:#990099">`V1R0`</span>`.xlsx`
+- **Example:** <span style="color:#0066cc">`LC-12`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`FHA-AIRCRAFT-LEVEL`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
+- **Example:** <span style="color:#0066cc">`LC-12`</span>`_`<span style="color:#cc6600">`22`</span>`-`<span style="color:#666666">`AUTOFLIGHT`</span>`_`<span style="color:#009900">`PSSA-FCS-SAFETY`</span>`_`<span style="color:#990099">`V2R1`</span>`.md`
+- **Example:** <span style="color:#0066cc">`LC-12`</span>`_`<span style="color:#cc6600">`9500`</span>`-`<span style="color:#666666">`NN-SYSTEMS`</span>`_`<span style="color:#009900">`DAL-MATRIX-NN-FCS`</span>`_`<span style="color:#990099">`V1R0`</span>`.csv`
 
 ---
 

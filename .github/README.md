@@ -98,7 +98,7 @@ LC-{STAGE}{SUBSTAGE}_{ATAIDX}-{ATADESC}_{FUNC}_VxRy.{ext}
 
 **Examples:**
 ```
-LC-16_572301-WINGS_SLATS_FLAP_WELL_ENV_CFD_V1R3.pdf
+LC-16_572301-WINGS_SLATS_FLAP_WELL_ENV_CFD_V1R3.md
 LC-17_950201-NEURAL_NETWORKS_NN_ECS_NN_ECS_CABIN_TEMP_NNMODEL_V2R0.py
 LC-32_210501-AIR_CONDITIONING_ECS_SENSOR_MROPROC_V1R0.md
 ```
@@ -106,7 +106,7 @@ LC-32_210501-AIR_CONDITIONING_ECS_SENSOR_MROPROC_V1R0.md
 ### Checked File Extensions
 
 The validator checks files with these extensions:
-- **Documents**: `.md`, `.pdf`, `.docx`, `.xlsx`
+- **Documents**: `.md`, `.md`, `.docx`, `.csv`
 - **CAD**: `.cad`, `.step`, `.iges`, `.stl`
 - **Code**: `.py`, `.c`, `.cpp`, `.h`, `.hpp`
 - **Data**: `.json`, `.yaml`, `.yml`, `.xml`
@@ -169,7 +169,7 @@ Edit `CHECKED_EXTENSIONS` in `validate_utcs_filenames.py`:
 
 ```python
 CHECKED_EXTENSIONS = {
-    '.md', '.pdf', '.docx',  # Add your extensions
+    '.md', '.md', '.docx',  # Add your extensions
 }
 ```
 

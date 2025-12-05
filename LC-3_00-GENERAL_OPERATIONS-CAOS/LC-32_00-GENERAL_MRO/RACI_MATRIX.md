@@ -56,23 +56,23 @@ LC-32_00-GENERAL_MRO/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Task_Cards/
-│   ├── LC-32_2100-AIR-CONDITIONING_TASK-CARD-ECS_V*R*.pdf
-│   ├── LC-32_2700-FLIGHT-CONTROLS_TASK-CARD-FCS_V*R*.pdf
-│   └── LC-32_2800-HYDROGEN_TASK-CARD-H2-SYSTEM_V*R*.pdf
+│   ├── LC-32_2100-AIR-CONDITIONING_TASK-CARD-ECS_V*R*.md
+│   ├── LC-32_2700-FLIGHT-CONTROLS_TASK-CARD-FCS_V*R*.md
+│   └── LC-32_2800-HYDROGEN_TASK-CARD-H2-SYSTEM_V*R*.md
 ├── Troubleshooting/
-│   ├── LC-32_00-GENERAL_TROUBLESHOOTING-MASTER_V*R*.pdf
+│   ├── LC-32_00-GENERAL_TROUBLESHOOTING-MASTER_V*R*.md
 │   ├── Fault_Isolation_Procedures/
 │   └── Diagnostic_Tools/
 └── Reliability/
-    ├── LC-32_00-GENERAL_RELIABILITY-REPORT-MONTHLY_V*R*.pdf
+    ├── LC-32_00-GENERAL_RELIABILITY-REPORT-MONTHLY_V*R*.md
     ├── Fleet_Statistics/
     └── Improvement_Recommendations/
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
-- **Example:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`2100`</span>`-`<span style="color:#666666">`AIR-CONDITIONING`</span>`_`<span style="color:#009900">`MROPROC-ECS-SENSOR`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
-- **Example:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`RELIABILITY-REPORT`</span>`_`<span style="color:#990099">`V1R0`</span>`.pdf`
+- **Example:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`2100`</span>`-`<span style="color:#666666">`AIR-CONDITIONING`</span>`_`<span style="color:#009900">`MROPROC-ECS-SENSOR`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
+- **Example:** <span style="color:#0066cc">`LC-32`</span>`_`<span style="color:#cc6600">`00`</span>`-`<span style="color:#666666">`GENERAL`</span>`_`<span style="color:#009900">`RELIABILITY-REPORT`</span>`_`<span style="color:#990099">`V1R0`</span>`.md`
 
 ---
 

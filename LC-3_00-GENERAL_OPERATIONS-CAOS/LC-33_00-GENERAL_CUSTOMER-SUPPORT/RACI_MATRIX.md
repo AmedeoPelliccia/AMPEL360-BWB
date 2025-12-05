@@ -60,17 +60,17 @@ LC-33_00-GENERAL_CUSTOMER-SUPPORT/
 │   ├── LC-33_2700-FLIGHT-CONTROLS_IETP-FCS-MAINT_V*R*.xml
 │   └── S1000D_Data_Modules/
 ├── Service_Bulletins/
-│   ├── LC-33_00-GENERAL_SB-*_V*R*.pdf
+│   ├── LC-33_00-GENERAL_SB-*_V*R*.md
 │   └── SB_Index/
 └── Fleet_Reports/
-    ├── LC-33_00-GENERAL_FLEET-REPORT-MONTHLY_V*R*.pdf
+    ├── LC-33_00-GENERAL_FLEET-REPORT-MONTHLY_V*R*.md
     └── Operational_Statistics/
 ```
 
 ### UTCS Naming Convention
 - **Format:** <span style="color:#0066cc">`LC-33`</span>`_`<span style="color:#cc6600">`{ATAIDX}`</span>`-`<span style="color:#666666">`{ATADESC}`</span>`_`<span style="color:#009900">`{FUNC}`</span>`_`<span style="color:#990099">`V{x}R{y}`</span>
 - **Example:** <span style="color:#0066cc">`LC-33`</span>`_`<span style="color:#cc6600">`2700`</span>`-`<span style="color:#666666">`FLIGHT-CONTROLS`</span>`_`<span style="color:#009900">`IETP-FCS-MAINTENANCE`</span>`_`<span style="color:#990099">`V1R0`</span>`.xml`
-- **Example:** `LC-33_00-GENERAL_SB-2025-001_V1R0.pdf`
+- **Example:** `LC-33_00-GENERAL_SB-2025-001_V1R0.md`
 
 ---
 
