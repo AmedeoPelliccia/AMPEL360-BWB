@@ -22,17 +22,45 @@ LC-{STAGE}{SUBSTAGE}_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}.ext
 - File: `LC-11_00-GENERAL_Q100-CONCEPT-BL-OVERVIEW_V1R0.md`
 
 Where:
-- **`LC-11`** = Life Cycle Stage 1, Substage 1 (Research & Concept)
+- **`LC-11`** = Life Cycle Stage **1**, Substage **1** (Research & Concept)
+  - First digit (1) = Stage 1 (Development)
+  - Second digit (1) = Substage 1 (Research & Concept)
 - **`00-GENERAL`** = ATA Chapter (00 = General/Cross-system)
 - **`Q100`** = Project scope identifier
 - **`{FUNC}`** = Functional category (e.g., CONCEPT-BASELINES, TRADE-STUDIES)
 - **`V{x}R{y}`** = Version x, Revision y
+
+### UTCS Hierarchy Structure
+
+The UTCS Node codes follow a **Chapter → Section → Subject** hierarchy:
+
+| UTCS Element | Example | Meaning |
+|--------------|---------|---------|
+| **Stage** | `1` | Lifecycle Stage 1 (Development) |
+| **Substage** | `1` | Substage 1 (Research & Concept) |
+| **Chapter** | `00` | Chapter under this LC node |
+| **Section** | `10` | Section inside the Chapter |
+| **Subject** | `01–99` | Individual topics/artefacts |
+
+**Example:** UTCS Node `0010` breaks down as:
+- `00` = Chapter
+- `10` = Section
+- Subject codes `01–99` represent individual artefacts within this section
+
+Therefore, files within `0010_Aircraft_Concept/` follow the pattern:
+```
+0010-01_Concept_Overview.md
+0010-02_Architecture_Rationale.md
+0010-03_Concept_Evolution_Log.md
+```
 
 ---
 
 ## Directory Structure
 
 ### Directory Overview
+
+**Note:** UTCS Node codes follow the pattern `{Chapter}{Section}` where each represents a level in the UTCS hierarchy (e.g., `0010` = Chapter 00, Section 10).
 
 | UTCS Node | Directory Name | Focus | Primary Audience |
 |-----------|----------------|-------|------------------|
