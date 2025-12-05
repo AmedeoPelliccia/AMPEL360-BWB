@@ -19,6 +19,7 @@ UTCS ensures:
 
 - **[UTCS-ID Specification v1.0](./UTCS-ID_Specification_v1.0.md)** - The unified identifier format for all lifecycle artefacts
 - **[ATA_MAP.yaml](./ATA_MAP.yaml)** - Official ATA dictionary for automatic ATADESC generation
+- **[ata_resolver.py](./ata_resolver.py)** - Python resolver for ATA code validation and ATADESC generation
 
 ## UTCS-ID Format
 
@@ -118,11 +119,53 @@ The ATA_MAP.yaml provides the official dictionary for automatic ATADESC generati
 
 The dictionary ensures deterministic, machine-readable, and human-friendly identifier generation for all lifecycle artefacts.
 
+## Python Resolver
+
+### [ata_resolver.py](./ata_resolver.py)
+
+The Python resolver provides both CLI and programmatic access to ATA code resolution and validation.
+
+**Features:**
+- Resolve 2/4/6-digit ATA codes to ATADESC descriptors
+- Validate ATA codes against the dictionary
+- List systems filtered by OPT-IN axis or LC stage
+- List sections and subjects hierarchically
+- Support for AMPEL360 extended systems (28H, 85, 95)
+- Multiple output formats (text, JSON, YAML)
+
+**CLI Usage:**
+```bash
+# Resolve ATA codes
+python ata_resolver.py 57                    # → WINGS
+python ata_resolver.py 5723                  # → WINGS_SLATS
+python ata_resolver.py 572301                # → WINGS_SLATS_FLAP_WELL_ENV
+
+# Validate codes
+python ata_resolver.py --validate 21         # Check if code exists
+
+# List systems
+python ata_resolver.py --list-systems        # All systems
+python ata_resolver.py --by-axis T_TECHNOLOGY # Filter by OPT-IN axis
+python ata_resolver.py --by-lc LC1           # Filter by lifecycle stage
+
+# Output formats
+python ata_resolver.py 85 --format json      # JSON output
+```
+
+**Programmatic Usage:**
+```python
+from ata_resolver import ATAResolver
+
+resolver = ATAResolver()
+result = resolver.resolve("572301")
+print(result.atadesc)  # WINGS_SLATS_FLAP_WELL_ENV
+```
+
 ## Implementation Tools
 
 Implementation artifacts:
 1. ✅ **ATA_MAP.yaml** - Official ATA dictionary (implemented)
-2. **Python resolver** - Tool to enforce/validate IDs automatically (planned)
+2. ✅ **Python resolver (ata_resolver.py)** - Tool to enforce/validate IDs automatically (implemented)
 3. **GitHub Actions** - CI rules to check all filenames via GenCCC (planned)
 
 ## References
