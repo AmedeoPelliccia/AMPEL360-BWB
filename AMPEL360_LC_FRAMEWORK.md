@@ -306,10 +306,12 @@ This is exactly what a modern aerospace program requires:
 ## Digital Thread & Traceability
 
 ### UTCS (Universal Traceability & Configuration System)
-- Unique identity for all parts across all LC phases
+- **[UTCS-ID Specification](./UTCS/UTCS-ID_Specification_v1.0.md):** Unified identifier format for all lifecycle artefacts
+- Unique identity for all parts across all LC phases (format: `LC-{STAGE}{SUBSTAGE}_{ATAIDX}-{ATADESC}_{FUNC}_VxRy`)
 - Version control and configuration management
 - Digital Product Passport (DPP) integration
 - Cradle-to-cradle material tracking
+- Machine and human-readable deterministic IDs
 
 ### GenCCC (Generative Configuration & Compliance Checking)
 - Automated requirements generation and validation

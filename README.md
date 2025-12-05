@@ -55,7 +55,7 @@ Computer-Aided Operations & Services for the full operational lifecycle.
 
 ### Digital Engineering
 - **OPT-IN Framework:** Organization, Program, Technical, Infrastructure, Neural Networks
-- **UTCS:** Universal Traceability & Configuration System
+- **[UTCS](./UTCS/):** Universal Traceability & Configuration System with unified ID format
 - **GenCCC:** Generative Configuration & Compliance Checking
 - **CGen:** Automated Content Generation
 - **Digital Twin:** Real-time model synchronization
