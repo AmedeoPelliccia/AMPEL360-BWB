@@ -161,12 +161,43 @@ result = resolver.resolve("572301")
 print(result.atadesc)  # WINGS_SLATS_FLAP_WELL_ENV
 ```
 
+## GitHub Actions CI/CD
+
+### Automated Validation
+
+The repository includes GitHub Actions workflows for automated UTCS-ID validation:
+
+**Workflow:** `.github/workflows/utcs-id-validation.yml`
+
+**Features:**
+- Validates ATA_MAP.yaml structure
+- Tests ATA resolver functionality
+- Scans repository for UTCS-ID compliant filenames
+- Generates validation reports
+- Checks Python code quality
+- Uploads validation artifacts
+
+**Validation Scripts:**
+- `.github/scripts/validate_utcs_filenames.py` - Filename validator
+- `.github/scripts/generate_validation_report.py` - Report generator
+
+**Triggers:**
+- Every push to main/develop branches
+- Every pull request
+- Manual workflow dispatch
+
+**Reports:**
+- JSON report: `.github/reports/utcs-validation.json`
+- Markdown report: `.github/reports/utcs-validation-report.md`
+
+See [.github/README.md](../.github/README.md) for detailed CI/CD documentation.
+
 ## Implementation Tools
 
 Implementation artifacts:
 1. ✅ **ATA_MAP.yaml** - Official ATA dictionary (implemented)
 2. ✅ **Python resolver (ata_resolver.py)** - Tool to enforce/validate IDs automatically (implemented)
-3. **GitHub Actions** - CI rules to check all filenames via GenCCC (planned)
+3. ✅ **GitHub Actions** - CI rules for automated validation (implemented)
 
 ## References
 

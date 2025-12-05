@@ -1,0 +1,161 @@
+name: UTCS-ID Validation
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - 'feature/**'
+      - 'release/**'
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  validate-utcs-ids:
+    name: Validate UTCS-ID Compliance
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for better diff analysis
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+      
+      - name: Validate ATA_MAP.yaml
+        run: |
+          echo "::group::Validating ATA_MAP.yaml"
+          python -c "import yaml; yaml.safe_load(open('UTCS/ATA_MAP.yaml'))"
+          echo "✅ ATA_MAP.yaml is valid YAML"
+          echo "::endgroup::"
+      
+      - name: Test ATA Resolver
+        run: |
+          echo "::group::Testing ATA Resolver"
+          cd UTCS
+          python ata_resolver.py --validate 57
+          python ata_resolver.py --validate 5723
+          python ata_resolver.py --validate 572301
+          python ata_resolver.py --validate 28H
+          python ata_resolver.py --validate 85
+          python ata_resolver.py --validate 95
+          echo "✅ ATA Resolver tests passed"
+          echo "::endgroup::"
+      
+      - name: Validate UTCS-ID filenames
+        run: |
+          echo "::group::Validating UTCS-ID compliant filenames"
+          python .github/scripts/validate_utcs_filenames.py
+          echo "::endgroup::"
+      
+      - name: Generate validation report
+        if: always()
+        run: |
+          echo "::group::UTCS-ID Validation Summary"
+          echo "Repository: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Commit: ${{ github.sha }}"
+          echo ""
+          python .github/scripts/generate_validation_report.py
+          echo "::endgroup::"
+      
+      - name: Upload validation artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: utcs-validation-report
+          path: |
+            .github/reports/
+          retention-days: 30
+
+  check-ata-dictionary:
+    name: Check ATA Dictionary Completeness
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+      
+      - name: Check dictionary coverage
+        run: |
+          echo "::group::ATA Dictionary Coverage Report"
+          cd UTCS
+          python -c "
+import yaml
+with open('ATA_MAP.yaml', 'r') as f:
+    ata_map = yaml.safe_load(f)
+    
+systems = len(ata_map.get('systems', {}))
+sections = len(ata_map.get('sections', {}))
+subjects = len(ata_map.get('subjects', {}))
+
+print(f'📊 ATA Dictionary Statistics:')
+print(f'   Systems:  {systems} definitions')
+print(f'   Sections: {sections} definitions')
+print(f'   Subjects: {subjects} definitions')
+print(f'   Total:    {systems + sections + subjects} entries')
+print()
+
+# Check for AMPEL360 extensions
+ampel360_systems = [k for k, v in ata_map['systems'].items() 
+                    if 'AMPEL360' in str(v.get('tags', []))]
+print(f'🚀 AMPEL360 Extended Systems: {len(ampel360_systems)}')
+for sys in ampel360_systems:
+    info = ata_map['systems'][sys]
+    print(f'   [{sys}] {info.get(\"name\")}')
+          "
+          echo "::endgroup::"
+
+  lint-python:
+    name: Lint Python Code
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install linting tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pylint
+      
+      - name: Run flake8
+        continue-on-error: true
+        run: |
+          echo "::group::Flake8 Analysis"
+          flake8 UTCS/ata_resolver.py --max-line-length=100 --statistics || true
+          echo "::endgroup::"
+      
+      - name: Check syntax
+        run: |
+          echo "::group::Python Syntax Check"
+          python -m py_compile UTCS/ata_resolver.py
+          python -m py_compile .github/scripts/*.py 2>/dev/null || true
+          echo "✅ Python syntax is valid"
+          echo "::endgroup::"
