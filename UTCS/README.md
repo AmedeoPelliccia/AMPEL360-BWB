@@ -18,6 +18,7 @@ UTCS ensures:
 ### Core Specifications
 
 - **[UTCS-ID Specification v1.0](./UTCS-ID_Specification_v1.0.md)** - The unified identifier format for all lifecycle artefacts
+- **[ATA_MAP.yaml](./ATA_MAP.yaml)** - Official ATA dictionary for automatic ATADESC generation
 
 ## UTCS-ID Format
 
@@ -99,12 +100,30 @@ All AMPEL360 artefacts must comply with UTCS-ID format for:
 - Neural Network deliverables (ATA 95)
 - Infrastructure components (ATA 02 / CAOS)
 
+## ATA Dictionary
+
+### [ATA_MAP.yaml](./ATA_MAP.yaml)
+
+The ATA_MAP.yaml provides the official dictionary for automatic ATADESC generation. It includes:
+
+- **70+ Standard ATA Chapters** (00-80): Complete coverage of traditional aircraft systems
+- **AMPEL360 Extended Chapters**: Custom systems for hydrogen, battery, and AI/NN
+  - ATA 28H: Hydrogen storage and distribution
+  - ATA 85: Green-E battery energy storage
+  - ATA 85-30: ANCHORS circularity framework
+  - ATA 95: AI/NN orchestration systems
+- **OPT-IN Axis Mapping**: Each system tagged with O/P/T/I/N classification
+- **LC Stage Tags**: Applicability across Development, Manufacturing, Operations
+- **Hierarchical Structure**: Systems (2-digit), Sections (4-digit), Subjects (6-digit)
+
+The dictionary ensures deterministic, machine-readable, and human-friendly identifier generation for all lifecycle artefacts.
+
 ## Implementation Tools
 
-Recommended implementation artifacts:
-1. **ATA_MAP.yaml** - Official ATA dictionary for automatic ATADESC generation
-2. **Python resolver** - Tool to enforce/validate IDs automatically
-3. **GitHub Actions** - CI rules to check all filenames via GenCCC
+Implementation artifacts:
+1. ✅ **ATA_MAP.yaml** - Official ATA dictionary (implemented)
+2. **Python resolver** - Tool to enforce/validate IDs automatically (planned)
+3. **GitHub Actions** - CI rules to check all filenames via GenCCC (planned)
 
 ## References
 
