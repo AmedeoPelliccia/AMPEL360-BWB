@@ -1,6 +1,6 @@
-# LC-11_0010-02 — Architecture Rationale
+# LC-11_0000-02 — Architecture Rationale
 
-**UTCS Node:** LC-11_0010-02  
+**UTCS Node:** LC-11_0000-02  
 **Document Type:** Technical Justification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -335,7 +335,7 @@ This document provides the technical and strategic rationale for the key archite
 ## 10. Next Steps
 
 1. **Detailed Trade Studies:** Quantify sensitivities and validate preliminary assumptions
-2. **Risk Assessment:** Formal identification and mitigation planning (LC-11_0010-24 to -26)
+2. **Risk Assessment:** Formal identification and mitigation planning (LC-11_0000-24 to -26)
 3. **Requirements Derivation:** Translate architectural decisions into system requirements (LC-13)
 4. **Technology Maturation:** Accelerate critical path items (fuel cells, AI certification)
 5. **Stakeholder Alignment:** Ensure supplier and regulatory alignment with architecture
@@ -344,9 +344,9 @@ This document provides the technical and strategic rationale for the key archite
 
 ## 11. References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-14 — Trade Studies Input](./LC-11_0010-14_Trade_Input_Assumptions.md)
-- [LC-11_0010-24 — Technology Risks](./LC-11_0010-24_Technology_Risks.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-14 — Trade Studies Input](./LC-11_0000-14_Trade_Input_Assumptions.md)
+- [LC-11_0000-24 — Technology Risks](./LC-11_0000-24_Technology_Risks.md)
 
 ---
 

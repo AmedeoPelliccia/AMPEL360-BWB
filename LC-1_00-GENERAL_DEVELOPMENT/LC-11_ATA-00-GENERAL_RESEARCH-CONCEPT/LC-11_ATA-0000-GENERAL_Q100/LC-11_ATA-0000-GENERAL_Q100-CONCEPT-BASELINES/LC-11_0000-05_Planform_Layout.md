@@ -1,6 +1,6 @@
-# LC-11_0010-05 — Planform Layout
+# LC-11_0000-05 — Planform Layout
 
-**UTCS Node:** LC-11_0010-05  
+**UTCS Node:** LC-11_0000-05  
 **Document Type:** Technical Specification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -415,9 +415,9 @@ Target lift distribution approximates elliptical for minimum induced drag:
 
 ## 15. References
 
-- [LC-11_0010-04 — Geometry Definition](./LC-11_0010-04_Geometry_Definition.md)
-- [LC-11_0010-06 — Cabin Layout Concept](./LC-11_0010-06_Cabin_Layout_Concept.md)
-- [LC-11_0010-21 — Propulsion Integration](./LC-11_0010-21_Propulsion_Integration.md)
+- [LC-11_0000-04 — Geometry Definition](./LC-11_0000-04_Geometry_Definition.md)
+- [LC-11_0000-06 — Cabin Layout Concept](./LC-11_0000-06_Cabin_Layout_Concept.md)
+- [LC-11_0000-21 — Propulsion Integration](./LC-11_0000-21_Propulsion_Integration.md)
 
 ---
 

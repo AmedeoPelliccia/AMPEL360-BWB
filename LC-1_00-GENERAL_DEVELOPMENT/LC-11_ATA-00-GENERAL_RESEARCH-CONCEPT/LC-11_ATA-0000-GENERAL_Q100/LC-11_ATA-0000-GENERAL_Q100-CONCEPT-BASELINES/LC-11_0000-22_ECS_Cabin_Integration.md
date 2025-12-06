@@ -1,6 +1,6 @@
-# LC-11_0010-22 — ECS and Cabin Integration
+# LC-11_0000-22 — ECS and Cabin Integration
 
-**UTCS Node:** LC-11_0010-22  
+**UTCS Node:** LC-11_0000-22  
 **Document Type:** Systems Integration  
 **Status:** Draft  
 **Version:** 1.0  
@@ -84,8 +84,8 @@ Defines Environmental Control System (ECS) integration with the BWB cabin and ov
 
 ## 7. References
 
-- [LC-11_0010-06 — Cabin Layout Concept](./LC-11_0010-06_Cabin_Layout_Concept.md)
-- [LC-11_0010-11 — Energy Sizing](./LC-11_0010-11_Energy_Sizing_Prelim.md)
+- [LC-11_0000-06 — Cabin Layout Concept](./LC-11_0000-06_Cabin_Layout_Concept.md)
+- [LC-11_0000-11 — Energy Sizing](./LC-11_0000-11_Energy_Sizing_Prelim.md)
 
 ---
 

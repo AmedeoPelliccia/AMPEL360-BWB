@@ -1,6 +1,6 @@
-# LC-11_0010-12 — Baseline A Definition
+# LC-11_0000-12 — Baseline A Definition
 
-**UTCS Node:** LC-11_0010-12  
+**UTCS Node:** LC-11_0000-12  
 **Document Type:** Baseline Configuration  
 **Status:** Frozen  
 **Version:** 1.0  
@@ -171,9 +171,9 @@ This document defines Baseline A, the conservative technology configuration for 
 
 ## 11. References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-09 — Preliminary Mass Breakdown](./LC-11_0010-09_PMB0_Preliminary_Mass_Breakdown.md)
-- [LC-11_0010-15 — Baseline Comparison](./LC-11_0010-15_Baseline_Comparison.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-09 — Preliminary Mass Breakdown](./LC-11_0000-09_PMB0_Preliminary_Mass_Breakdown.md)
+- [LC-11_0000-15 — Baseline Comparison](./LC-11_0000-15_Baseline_Comparison.md)
 
 ---
 

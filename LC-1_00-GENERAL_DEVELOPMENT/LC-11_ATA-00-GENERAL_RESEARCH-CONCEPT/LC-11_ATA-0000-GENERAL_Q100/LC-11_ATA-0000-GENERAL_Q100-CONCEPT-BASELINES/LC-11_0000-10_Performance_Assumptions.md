@@ -1,6 +1,6 @@
-# LC-11_0010-10 — Performance Assumptions
+# LC-11_0000-10 — Performance Assumptions
 
-**UTCS Node:** LC-11_0010-10  
+**UTCS Node:** LC-11_0000-10  
 **Document Type:** Performance Specification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -315,9 +315,9 @@ SR = 149.7 nm/kg H₂
 
 ## 12. References
 
-- [LC-11_0010-08 — Mission and Payload Assumptions](./LC-11_0010-08_Mission_Payload_Assumptions.md)
-- [LC-11_0010-09 — Preliminary Mass Breakdown](./LC-11_0010-09_PMB0_Preliminary_Mass_Breakdown.md)
-- [LC-11_0010-11 — Energy Sizing Preliminary](./LC-11_0010-11_Energy_Sizing_Prelim.md)
+- [LC-11_0000-08 — Mission and Payload Assumptions](./LC-11_0000-08_Mission_Payload_Assumptions.md)
+- [LC-11_0000-09 — Preliminary Mass Breakdown](./LC-11_0000-09_PMB0_Preliminary_Mass_Breakdown.md)
+- [LC-11_0000-11 — Energy Sizing Preliminary](./LC-11_0000-11_Energy_Sizing_Prelim.md)
 
 ---
 

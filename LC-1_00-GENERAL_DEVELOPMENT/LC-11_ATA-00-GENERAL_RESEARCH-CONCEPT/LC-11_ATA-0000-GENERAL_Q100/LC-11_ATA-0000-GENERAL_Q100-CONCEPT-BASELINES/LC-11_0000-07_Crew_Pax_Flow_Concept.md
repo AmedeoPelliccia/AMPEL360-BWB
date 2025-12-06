@@ -1,6 +1,6 @@
-# LC-11_0010-07 — Crew and Passenger Flow Concept
+# LC-11_0000-07 — Crew and Passenger Flow Concept
 
-**UTCS Node:** LC-11_0010-07  
+**UTCS Node:** LC-11_0000-07  
 **Document Type:** Operational Concept  
 **Status:** Draft  
 **Version:** 1.0  
@@ -334,8 +334,8 @@ For high-frequency operations (regional shuttle service):
 
 ## 13. References
 
-- [LC-11_0010-06 — Cabin Layout Concept](./LC-11_0010-06_Cabin_Layout_Concept.md)
-- [LC-11_0010-23 — GSE and Cargo Concept](./LC-11_0010-23_GSE_Cargo_Concept.md)
+- [LC-11_0000-06 — Cabin Layout Concept](./LC-11_0000-06_Cabin_Layout_Concept.md)
+- [LC-11_0000-23 — GSE and Cargo Concept](./LC-11_0000-23_GSE_Cargo_Concept.md)
 - CS-25 §25.795 — Security Considerations
 - CS-25 §25.803 — Emergency Evacuation
 

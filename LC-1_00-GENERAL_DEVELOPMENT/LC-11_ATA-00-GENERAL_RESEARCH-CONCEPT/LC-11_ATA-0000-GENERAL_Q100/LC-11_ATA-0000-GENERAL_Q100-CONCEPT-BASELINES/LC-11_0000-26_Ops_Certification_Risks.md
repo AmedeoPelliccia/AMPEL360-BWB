@@ -1,6 +1,6 @@
-# LC-11_0010-24 — Technology Risks
+# LC-11_0000-26 — Ops Certification Risks
 
-**UTCS Node:** LC-11_0010-24  
+**UTCS Node:** LC-11_0000-26  
 **Document Type:** Risk Assessment  
 **Status:** Draft  
 **Version:** 1.0  
@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This document identifies and assesses Technology Risks risks for the AMPEL360 BWB Q100 concept.
+This document identifies and assesses Ops Certification Risks risks for the AMPEL360 BWB Q100 concept.
 
 ---
 
@@ -39,12 +39,12 @@ For each identified risk:
 
 ### 3.1 High-Priority Risks
 
-1. **Risk ID R-24-001:** [Risk description]
+1. **Risk ID R-26-001:** [Risk description]
    - **Probability:** TBD
    - **Impact:** TBD
    - **Mitigation:** TBD
 
-2. **Risk ID R-24-002:** [Risk description]
+2. **Risk ID R-26-002:** [Risk description]
    - **Probability:** TBD
    - **Impact:** TBD
    - **Mitigation:** TBD
@@ -55,8 +55,8 @@ For each identified risk:
 
 | Risk ID | Risk Description | Probability | Impact | Mitigation Status |
 |---------|------------------|-------------|--------|-------------------|
-| R-24-001 | TBD | TBD | TBD | In Progress |
-| R-24-002 | TBD | TBD | TBD | Planned |
+| R-26-001 | TBD | TBD | TBD | In Progress |
+| R-26-002 | TBD | TBD | TBD | Planned |
 
 ---
 
@@ -70,8 +70,8 @@ For each identified risk:
 
 ## 6. References
 
-- [LC-11_0010-02 — Architecture Rationale](./LC-11_0010-02_Architecture_Rationale.md)
-- [LC-11_0010-27 — Concept Decision Log](./LC-11_0010-27_Concept_Decision_Log.md)
+- [LC-11_0000-02 — Architecture Rationale](./LC-11_0000-02_Architecture_Rationale.md)
+- [LC-11_0000-27 — Concept Decision Log](./LC-11_0000-27_Concept_Decision_Log.md)
 
 ---
 

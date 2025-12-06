@@ -1,6 +1,6 @@
-# LC-11_0010-21 — Propulsion Integration
+# LC-11_0000-21 — Propulsion Integration
 
-**UTCS Node:** LC-11_0010-21  
+**UTCS Node:** LC-11_0000-21  
 **Document Type:** Integration Specification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -92,8 +92,8 @@ Defines the integration of the distributed electric propulsion system into the B
 
 ## 7. References
 
-- [LC-11_0010-05 — Planform Layout](./LC-11_0010-05_Planform_Layout.md)
-- [LC-11_0010-11 — Energy Sizing](./LC-11_0010-11_Energy_Sizing_Prelim.md)
+- [LC-11_0000-05 — Planform Layout](./LC-11_0000-05_Planform_Layout.md)
+- [LC-11_0000-11 — Energy Sizing](./LC-11_0000-11_Energy_Sizing_Prelim.md)
 
 ---
 

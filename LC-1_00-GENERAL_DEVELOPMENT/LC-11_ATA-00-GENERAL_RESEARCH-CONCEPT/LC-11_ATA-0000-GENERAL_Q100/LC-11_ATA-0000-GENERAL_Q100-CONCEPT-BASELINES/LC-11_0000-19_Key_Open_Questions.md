@@ -1,6 +1,6 @@
-# LC-11_0010-20 — Airframe Integration
+# LC-11_0000-19 — Key Open Questions
 
-**UTCS Node:** LC-11_0010-20  
+**UTCS Node:** LC-11_0000-19  
 **Document Type:** Technical Analysis  
 **Status:** Draft  
 **Version:** 1.0  
@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This document addresses airframe integration for the AMPEL360 BWB Q100 concept.
+This document addresses key open questions for the AMPEL360 BWB Q100 concept.
 
 ---
 
@@ -53,8 +53,8 @@ This document addresses airframe integration for the AMPEL360 BWB Q100 concept.
 
 ## 6. References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-02 — Architecture Rationale](./LC-11_0010-02_Architecture_Rationale.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-02 — Architecture Rationale](./LC-11_0000-02_Architecture_Rationale.md)
 
 ---
 
