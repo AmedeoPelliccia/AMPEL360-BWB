@@ -1,4 +1,4 @@
-# LC-11_00-GENERAL_Q100-CONCEPT-BASELINES
+# LC-11_0000-GENERAL_Q100-CONCEPT-BASELINES
 
 ## Overview
 
@@ -65,7 +65,7 @@ All documents follow UTCS naming conventions and version control:
 
 ## Related Documents
 
-- [LC-11_00-GENERAL_Q100 README](../README.md) — Parent directory overview
+- [LC-11_0000-GENERAL_Q100 README](../README.md) — Parent directory overview
 - [LC-11_00-GENERAL_RESEARCH-CONCEPT README](../../README.md) — Research & concept phase overview
 
 ## Contact
