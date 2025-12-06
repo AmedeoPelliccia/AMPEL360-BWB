@@ -1,0 +1,254 @@
+# UTCS Index: LC-11_ATA-0000-GENERAL_Q100-ARCHIVES
+# Q100 Concept Archives - Historical Traceability and Configuration Management
+
+metadata:
+  utcs_node: "0000"
+  node_type: "archives"
+  lifecycle_stage: "LC-11"
+  ata_chapter: "00-GENERAL"
+  project_scope: "Q100"
+  functional_category: "ARCHIVES"
+  version: "1.0"
+  last_updated: "2025-12-06"
+  owner: "AMPEL360 Architecture Board"
+  status: "Active"
+
+description:
+  short: "Q100 concept archives for historical traceability and decision provenance"
+  long: |
+    Archives of frozen baselines, superseded studies, obsolete requirements,
+    and historical decision records for the AMPEL360 BWB Q100 aircraft concept.
+    Provides complete configuration management and traceability for governance,
+    compliance, and knowledge retention.
+
+utcs_structure:
+  chapter: "00"    # ATA Chapter 00 - General
+  section: "00"    # Section 00 - Project-level (Q100)
+  subjects:        # Subject codes 29-39 for archives
+    - id: "29"
+      title: "Archives Overview"
+      description: "General archive overview, criteria, and access"
+    - id: "30"
+      title: "Concept Baselines Archive Index"
+      description: "Index of archived baselines (A, B, C) with freeze history"
+    - id: "31"
+      title: "Studies and Envelopes Archive Index"
+      description: "Parametric studies, trade studies, constraints archives"
+    - id: "32"
+      title: "Requirements and Risks Archive Index"
+      description: "Seed requirements and risk research archives"
+    - id: "33"
+      title: "Reviews and Decisions Archive Index"
+      description: "MCRs, internal reviews, and decision records"
+    - id: "34"
+      title: "Q100 Concept Baseline 0 Freeze"
+      description: "Formal snapshot of Baseline 0"
+    - id: "35"
+      title: "Q100 Concept Baseline 1 Freeze"
+      description: "Formal snapshot of Baseline 1"
+    - id: "36"
+      title: "Q100 Concept Baseline 2 Freeze"
+      description: "Formal snapshot of Baseline 2"
+    - id: "37"
+      title: "Obsolete Artefacts Catalogue"
+      description: "Flat catalogue of obsolete items with replacement paths"
+    - id: "38"
+      title: "Change History Summary"
+      description: "Narrative synthesis of major concept changes"
+    - id: "39"
+      title: "External References Snapshot"
+      description: "External references at baseline freeze dates"
+
+primary_audiences:
+  - role: "Architecture Board"
+    purpose: "Governance and decision provenance"
+  - role: "Configuration Management"
+    purpose: "Configuration control and change tracking"
+  - role: "Certification Authority"
+    purpose: "Compliance evidence and audit trail"
+  - role: "Programme Management"
+    purpose: "Historical context and lessons learned"
+  - role: "Future Programme Teams"
+    purpose: "Knowledge retention and best practices"
+
+archive_types:
+  frozen_baselines:
+    description: "Formal snapshots of concept baselines at freeze dates"
+    subjects: ["34", "35", "36"]
+    retention: "Full programme lifecycle + 20 years"
+  
+  superseded_studies:
+    description: "Parametric and trade studies replaced by newer versions"
+    subjects: ["31"]
+    retention: "Full programme lifecycle"
+  
+  obsolete_requirements:
+    description: "Seed requirements transitioned to formal specs or deprecated"
+    subjects: ["32"]
+    retention: "Full programme lifecycle"
+  
+  historical_reviews:
+    description: "Completed MCRs and decision records"
+    subjects: ["33"]
+    retention: "Full programme lifecycle + regulatory period"
+  
+  change_documentation:
+    description: "Narrative and catalogue of concept evolution"
+    subjects: ["37", "38"]
+    retention: "Full programme lifecycle"
+  
+  reference_snapshots:
+    description: "External references at time of baseline freezes"
+    subjects: ["39"]
+    retention: "Full programme lifecycle"
+
+archival_criteria:
+  baseline_freeze:
+    trigger: "Formal baseline freeze decision by Chief Engineer"
+    action: "Create freeze snapshot document (subjects 34-36)"
+    
+  superseded:
+    trigger: "Artefact replaced by newer version"
+    action: "Update obsolete catalogue (subject 37) and relevant index"
+    
+  obsolete:
+    trigger: "Concept direction change makes artefact irrelevant"
+    action: "Document reason in obsolete catalogue and change history"
+    
+  completed:
+    trigger: "Study, review, or activity fully completed"
+    action: "Archive materials and update relevant index"
+    
+  transitioned:
+    trigger: "Requirements/risks moved to formal systems (LC-13+)"
+    action: "Document transition path in requirements/risks index"
+
+governance:
+  archive_owner: "AMPEL360 Architecture Board"
+  configuration_control: "Configuration Advisory Board (CAB)"
+  review_frequency: "Quarterly or at baseline freeze"
+  approval_authority: "Architecture Board Chair"
+  change_control: "Formal change request process for archive updates"
+
+integration_points:
+  upstream:
+    - source: "LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BASELINES"
+      node: "0010"
+      relationship: "Baselines frozen and archived"
+    
+    - source: "LC-11_ATA-0000-GENERAL_Q100-TRADE-STUDIES"
+      node: "0014"
+      relationship: "Completed studies archived"
+    
+    - source: "LC-11_ATA-0000-GENERAL_Q100-REQ-SEED"
+      node: "0016"
+      relationship: "Seed requirements transitioned and archived"
+    
+    - source: "LC-11_ATA-0000-GENERAL_Q100-REVIEWS"
+      node: "0018"
+      relationship: "Review records archived post-closure"
+  
+  downstream:
+    - target: "LC-13 Requirements Engineering"
+      relationship: "Traceability from seed requirements to formal specs"
+    
+    - target: "LC-14 Detailed Design"
+      relationship: "Frozen baselines as design reference"
+    
+    - target: "Certification Authorities"
+      relationship: "Compliance evidence and decision provenance"
+
+traceability:
+  utcs_compliance: true
+  version_control: "Git repository with full history"
+  decision_links: "Cross-referenced in decision logs and review records"
+  requirements_flow: "Seed requirements → formal specs (LC-13)"
+  risk_management: "Risk research → programme risk register"
+
+tools_and_access:
+  primary_location: "Git repository - LC-1_00-GENERAL_DEVELOPMENT/LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT/LC-11_ATA-0000-GENERAL_Q100/LC-11_ATA-0000-GENERAL_Q100-ARCHIVES/"
+  assets_storage: "ASSETS/ subdirectory for archived files"
+  backup_location: "Programme document management system"
+  access_control: "Authorized programme personnel"
+
+files:
+  - name: "LC-11_ATA-0000-29_Archives_Overview.md"
+    subject: "29"
+    type: "overview"
+    status: "active"
+    
+  - name: "LC-11_ATA-0000-30_Concept_Baselines_Archive_Index.md"
+    subject: "30"
+    type: "index"
+    status: "active"
+    
+  - name: "LC-11_ATA-0000-31_Studies_and_Envelopes_Archive_Index.md"
+    subject: "31"
+    type: "index"
+    status: "active"
+    
+  - name: "LC-11_ATA-0000-32_Requirements_and_Risks_Archive_Index.md"
+    subject: "32"
+    type: "index"
+    status: "active"
+    
+  - name: "LC-11_ATA-0000-33_Reviews_and_Decisions_Archive_Index.md"
+    subject: "33"
+    type: "index"
+    status: "active"
+    
+  - name: "LC-11_ATA-0000-34_Q100_Concept_Baseline0_Freeze.md"
+    subject: "34"
+    type: "baseline_snapshot"
+    status: "draft"
+    freeze_date: "TBD"
+    
+  - name: "LC-11_ATA-0000-35_Q100_Concept_Baseline1_Freeze.md"
+    subject: "35"
+    type: "baseline_snapshot"
+    status: "draft"
+    freeze_date: "TBD"
+    
+  - name: "LC-11_ATA-0000-36_Q100_Concept_Baseline2_Freeze.md"
+    subject: "36"
+    type: "baseline_snapshot"
+    status: "draft"
+    freeze_date: "TBD"
+    
+  - name: "LC-11_ATA-0000-37_Obsolete_Artefacts_Catalogue.md"
+    subject: "37"
+    type: "catalogue"
+    status: "active"
+    
+  - name: "LC-11_ATA-0000-38_Change_History_Summary.md"
+    subject: "38"
+    type: "narrative"
+    status: "active"
+    
+  - name: "LC-11_ATA-0000-39_External_References_Snapshot.md"
+    subject: "39"
+    type: "reference_list"
+    status: "active"
+
+references:
+  - doc: "UTCS-LC Naming Rules"
+    location: "../../../UTCS/UTCS-LC_NAMING_RULES.md"
+    
+  - doc: "LC-11 RACI Matrix"
+    location: "../RACI_MATRIX.md"
+    
+  - doc: "Q100 Main README"
+    location: "../README.md"
+    
+  - doc: "Concept Evolution Log"
+    location: "../LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BASELINES/LC-11_0010-03_Concept_Evolution_Log.md"
+    
+  - doc: "Concept Decision Log"
+    location: "../LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BASELINES/LC-11_0010-27_Concept_Decision_Log.md"
+
+notes:
+  - "Archive subject codes 29-39 provide systematic organization"
+  - "All archived materials remain accessible for traceability"
+  - "Quarterly review ensures archive completeness and accuracy"
+  - "Retention policy exceeds regulatory requirements"
+  - "UTCS-ID system ensures automated traceability via GenCCC"
