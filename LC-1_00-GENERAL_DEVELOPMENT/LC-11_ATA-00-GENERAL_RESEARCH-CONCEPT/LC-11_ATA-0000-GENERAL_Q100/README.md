@@ -49,9 +49,9 @@ The UTCS Node codes follow a **Chapter → Section → Subject** hierarchy:
 
 Therefore, files within the CONCEPT-BASELINES directory (Node 0010) follow the pattern:
 ```
-LC-11_00-10-01_Concept_Overview_V1R0.md
-LC-11_00-10-02_Architecture_Rationale_V1R0.md
-LC-11_00-10-03_Concept_Evolution_Log_V1R0.md
+LC-11_ATA-0010-01_Concept_Overview_V1R0.md
+LC-11_ATA-0010-02_Architecture_Rationale_V1R0.md
+LC-11_ATA-0010-03_Concept_Evolution_Log_V1R0.md
 ```
 
 ---

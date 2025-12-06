@@ -231,9 +231,9 @@ Standard file extensions based on artefact type:
 
 ```
 # Concept-level trade study
-LC-11_00-GENERAL_TRADE-STUDY-BWB-CONFIG_V1R0.md
+LC-11_ATA-0000-GENERAL_TRADE-STUDY-BWB-CONFIG_V1R0.md
 ```
-<span style="color:#0066cc">**LC-11**</span>_<span style="color:#cc6600">**00**</span>-<span style="color:#666666">**GENERAL**</span>_<span style="color:#009900">**TRADE-STUDY-BWB-CONFIG**</span>_<span style="color:#990099">**V1R0**</span>.md
+<span style="color:#0066cc">**LC-11**</span>_<span style="color:#cc6600">**ATA-0000**</span>-<span style="color:#666666">**GENERAL**</span>_<span style="color:#009900">**TRADE-STUDY-BWB-CONFIG**</span>_<span style="color:#990099">**V1R0**</span>.md
 
 ```
 # Safety analysis for flight controls
