@@ -28,7 +28,7 @@ ASSETS/
 
 - Use descriptive names: `Q100_planform_layout_v1.0.png`
 - Include version numbers for iterative files
-- Reference source document: `LC-11_0010-05_planform_top_view.svg`
+- Reference source document: `LC-11_0000-05_planform_top_view.svg`
 
 ## Supported Formats
 

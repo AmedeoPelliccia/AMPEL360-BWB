@@ -1,6 +1,6 @@
-# LC-11_0010-18 — Parameter Bounds
+# LC-11_0000-18 — Parameter Bounds
 
-**UTCS Node:** LC-11_0010-18  
+**UTCS Node:** LC-11_0000-18  
 **Document Type:** Technical Analysis  
 **Status:** Draft  
 **Version:** 1.0  
@@ -53,8 +53,8 @@ This document addresses parameter bounds for the AMPEL360 BWB Q100 concept.
 
 ## 6. References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-02 — Architecture Rationale](./LC-11_0010-02_Architecture_Rationale.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-02 — Architecture Rationale](./LC-11_0000-02_Architecture_Rationale.md)
 
 ---
 

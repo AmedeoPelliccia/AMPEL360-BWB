@@ -1,6 +1,6 @@
-# LC-11_0010-23 — GSE and Cargo Concept
+# LC-11_0000-23 — GSE and Cargo Concept
 
-**UTCS Node:** LC-11_0010-23  
+**UTCS Node:** LC-11_0000-23  
 **Document Type:** Ground Operations Specification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -103,8 +103,8 @@ Defines ground support equipment (GSE) requirements and cargo handling concepts 
 
 ## 6. References
 
-- [LC-11_0010-07 — Crew and Passenger Flow](./LC-11_0010-07_Crew_Pax_Flow_Concept.md)
-- [LC-11_0010-08 — Mission and Payload Assumptions](./LC-11_0010-08_Mission_Payload_Assumptions.md)
+- [LC-11_0000-07 — Crew and Passenger Flow](./LC-11_0000-07_Crew_Pax_Flow_Concept.md)
+- [LC-11_0000-08 — Mission and Payload Assumptions](./LC-11_0000-08_Mission_Payload_Assumptions.md)
 
 ---
 

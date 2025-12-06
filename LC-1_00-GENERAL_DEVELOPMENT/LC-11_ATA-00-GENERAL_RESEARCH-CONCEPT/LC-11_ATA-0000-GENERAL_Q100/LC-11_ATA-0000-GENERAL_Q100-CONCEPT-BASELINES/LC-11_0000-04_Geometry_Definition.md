@@ -1,6 +1,6 @@
-# LC-11_0010-04 — Geometry Definition
+# LC-11_0000-04 — Geometry Definition
 
-**UTCS Node:** LC-11_0010-04  
+**UTCS Node:** LC-11_0000-04  
 **Document Type:** Technical Specification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -332,10 +332,10 @@ The following geometric aspects require further definition:
 
 ## 13. References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-05 — Planform Layout](./LC-11_0010-05_Planform_Layout.md)
-- [LC-11_0010-06 — Cabin Layout Concept](./LC-11_0010-06_Cabin_Layout_Concept.md)
-- [LC-11_0010-20 — Airframe Integration](./LC-11_0010-20_Airframe_Integration.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-05 — Planform Layout](./LC-11_0000-05_Planform_Layout.md)
+- [LC-11_0000-06 — Cabin Layout Concept](./LC-11_0000-06_Cabin_Layout_Concept.md)
+- [LC-11_0000-20 — Airframe Integration](./LC-11_0000-20_Airframe_Integration.md)
 
 ---
 

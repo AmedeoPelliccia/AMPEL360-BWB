@@ -1,6 +1,6 @@
-# LC-11_0010-08 — Mission and Payload Assumptions
+# LC-11_0000-08 — Mission and Payload Assumptions
 
-**UTCS Node:** LC-11_0010-08  
+**UTCS Node:** LC-11_0000-08  
 **Document Type:** Design Requirements  
 **Status:** Draft  
 **Version:** 1.0  
@@ -312,10 +312,10 @@ This document defines the mission profiles and payload assumptions for the AMPEL
 
 ## 12. References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-09 — Preliminary Mass Breakdown](./LC-11_0010-09_PMB0_Preliminary_Mass_Breakdown.md)
-- [LC-11_0010-10 — Performance Assumptions](./LC-11_0010-10_Performance_Assumptions.md)
-- [LC-11_0010-11 — Energy Sizing Preliminary](./LC-11_0010-11_Energy_Sizing_Prelim.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-09 — Preliminary Mass Breakdown](./LC-11_0000-09_PMB0_Preliminary_Mass_Breakdown.md)
+- [LC-11_0000-10 — Performance Assumptions](./LC-11_0000-10_Performance_Assumptions.md)
+- [LC-11_0000-11 — Energy Sizing Preliminary](./LC-11_0000-11_Energy_Sizing_Prelim.md)
 
 ---
 

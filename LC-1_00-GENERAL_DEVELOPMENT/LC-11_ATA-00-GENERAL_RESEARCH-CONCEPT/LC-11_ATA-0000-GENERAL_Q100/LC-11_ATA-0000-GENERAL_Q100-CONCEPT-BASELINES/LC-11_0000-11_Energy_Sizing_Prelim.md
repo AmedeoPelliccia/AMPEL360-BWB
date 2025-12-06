@@ -1,6 +1,6 @@
-# LC-11_0010-11 — Energy Sizing Preliminary
+# LC-11_0000-11 — Energy Sizing Preliminary
 
-**UTCS Node:** LC-11_0010-11  
+**UTCS Node:** LC-11_0000-11  
 **Document Type:** Energy System Specification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -381,10 +381,10 @@ This document defines the preliminary energy sizing for the AMPEL360 BWB Q100, i
 
 ## 12. References
 
-- [LC-11_0010-08 — Mission and Payload Assumptions](./LC-11_0010-08_Mission_Payload_Assumptions.md)
-- [LC-11_0010-09 — Preliminary Mass Breakdown](./LC-11_0010-09_PMB0_Preliminary_Mass_Breakdown.md)
-- [LC-11_0010-10 — Performance Assumptions](./LC-11_0010-10_Performance_Assumptions.md)
-- [LC-11_0010-21 — Propulsion Integration](./LC-11_0010-21_Propulsion_Integration.md)
+- [LC-11_0000-08 — Mission and Payload Assumptions](./LC-11_0000-08_Mission_Payload_Assumptions.md)
+- [LC-11_0000-09 — Preliminary Mass Breakdown](./LC-11_0000-09_PMB0_Preliminary_Mass_Breakdown.md)
+- [LC-11_0000-10 — Performance Assumptions](./LC-11_0000-10_Performance_Assumptions.md)
+- [LC-11_0000-21 — Propulsion Integration](./LC-11_0000-21_Propulsion_Integration.md)
 
 ---
 

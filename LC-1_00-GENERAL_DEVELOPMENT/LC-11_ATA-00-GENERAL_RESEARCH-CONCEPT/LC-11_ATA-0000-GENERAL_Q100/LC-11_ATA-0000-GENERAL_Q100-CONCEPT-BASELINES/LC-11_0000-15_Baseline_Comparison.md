@@ -1,6 +1,6 @@
-# LC-11_0010-15 — Baseline Comparison
+# LC-11_0000-15 — Baseline Comparison
 
-**UTCS Node:** LC-11_0010-15  
+**UTCS Node:** LC-11_0000-15  
 **Document Type:** Trade Study Analysis  
 **Status:** Draft  
 **Version:** 1.0  
@@ -178,9 +178,9 @@ All baselines outperform conventional aircraft (A320neo) on:
 
 ## 10. References
 
-- [LC-11_0010-12 — Baseline A Definition](./LC-11_0010-12_BaselineA_Definition.md)
-- [LC-11_0010-13 — Baseline B Definition](./LC-11_0010-13_BaselineB_Definition.md)
-- [LC-11_0010-14 — Baseline C Definition](./LC-11_0010-14_BaselineC_Definition.md)
+- [LC-11_0000-12 — Baseline A Definition](./LC-11_0000-12_BaselineA_Definition.md)
+- [LC-11_0000-13 — Baseline B Definition](./LC-11_0000-13_BaselineB_Definition.md)
+- [LC-11_0000-14 — Baseline C Definition](./LC-11_0000-14_BaselineC_Definition.md)
 
 ---
 

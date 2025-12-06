@@ -1,6 +1,6 @@
-# LC-11_0010-25 — Structural Energy Risks
+# LC-11_0000-25 — Structural Energy Risks
 
-**UTCS Node:** LC-11_0010-25  
+**UTCS Node:** LC-11_0000-25  
 **Document Type:** Risk Assessment  
 **Status:** Draft  
 **Version:** 1.0  
@@ -70,8 +70,8 @@ For each identified risk:
 
 ## 6. References
 
-- [LC-11_0010-02 — Architecture Rationale](./LC-11_0010-02_Architecture_Rationale.md)
-- [LC-11_0010-27 — Concept Decision Log](./LC-11_0010-27_Concept_Decision_Log.md)
+- [LC-11_0000-02 — Architecture Rationale](./LC-11_0000-02_Architecture_Rationale.md)
+- [LC-11_0000-27 — Concept Decision Log](./LC-11_0000-27_Concept_Decision_Log.md)
 
 ---
 

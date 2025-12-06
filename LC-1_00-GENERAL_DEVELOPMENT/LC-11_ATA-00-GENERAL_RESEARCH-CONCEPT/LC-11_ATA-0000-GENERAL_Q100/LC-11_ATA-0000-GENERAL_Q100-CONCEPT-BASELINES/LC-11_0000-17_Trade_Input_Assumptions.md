@@ -1,6 +1,6 @@
-# LC-11_0010-16 — Baseline Selection
+# LC-11_0000-17 — Trade Study Inputs
 
-**UTCS Node:** LC-11_0010-16  
+**UTCS Node:** LC-11_0000-17  
 **Document Type:** Technical Analysis  
 **Status:** Draft  
 **Version:** 1.0  
@@ -11,7 +11,7 @@
 
 ## 1. Purpose
 
-This document addresses baseline selection for the AMPEL360 BWB Q100 concept.
+This document addresses trade study inputs for the AMPEL360 BWB Q100 concept.
 
 ---
 
@@ -53,8 +53,8 @@ This document addresses baseline selection for the AMPEL360 BWB Q100 concept.
 
 ## 6. References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-02 — Architecture Rationale](./LC-11_0010-02_Architecture_Rationale.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-02 — Architecture Rationale](./LC-11_0000-02_Architecture_Rationale.md)
 
 ---
 

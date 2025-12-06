@@ -60,7 +60,7 @@ These documents are intended for:
 
 All documents follow UTCS naming conventions and version control:
 - **Version format:** VxRy (Version x, Revision y)
-- **Document IDs:** LC-11_0010-NN format
+- **Document IDs:** LC-11_0000-NN format
 - **Status:** Draft / Released / Frozen
 
 ## Related Documents

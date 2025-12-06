@@ -1,6 +1,6 @@
-# LC-11_0010-06 — Cabin Layout Concept
+# LC-11_0000-06 — Cabin Layout Concept
 
-**UTCS Node:** LC-11_0010-06  
+**UTCS Node:** LC-11_0000-06  
 **Document Type:** Interior Configuration Specification  
 **Status:** Draft  
 **Version:** 1.0  
@@ -295,9 +295,9 @@ The BWB cabin is a **non-circular pressure vessel**, requiring:
 
 ## 13. References
 
-- [LC-11_0010-04 — Geometry Definition](./LC-11_0010-04_Geometry_Definition.md)
-- [LC-11_0010-07 — Crew and Passenger Flow Concept](./LC-11_0010-07_Crew_Pax_Flow_Concept.md)
-- [LC-11_0010-09 — Preliminary Mass Breakdown](./LC-11_0010-09_PMB0_Preliminary_Mass_Breakdown.md)
+- [LC-11_0000-04 — Geometry Definition](./LC-11_0000-04_Geometry_Definition.md)
+- [LC-11_0000-07 — Crew and Passenger Flow Concept](./LC-11_0000-07_Crew_Pax_Flow_Concept.md)
+- [LC-11_0000-09 — Preliminary Mass Breakdown](./LC-11_0000-09_PMB0_Preliminary_Mass_Breakdown.md)
 - CS-25 §25.807 — Emergency Exits
 - CS-25 §25.813 — Emergency Exit Access
 

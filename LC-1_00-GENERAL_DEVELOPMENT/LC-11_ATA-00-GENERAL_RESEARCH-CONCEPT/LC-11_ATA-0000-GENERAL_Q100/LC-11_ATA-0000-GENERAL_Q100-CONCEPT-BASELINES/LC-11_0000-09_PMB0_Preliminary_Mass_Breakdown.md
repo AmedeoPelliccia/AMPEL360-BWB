@@ -1,6 +1,6 @@
-# LC-11_0010-09 — PMB0 Preliminary Mass Breakdown
+# LC-11_0000-09 — PMB0 Preliminary Mass Breakdown
 
-**UTCS Node:** LC-11_0010-09  
+**UTCS Node:** LC-11_0000-09  
 **Document Type:** Mass Budget  
 **Status:** Draft  
 **Version:** 1.0 (PMB0 - First Estimate)  
@@ -262,9 +262,9 @@ This document provides the preliminary mass breakdown (PMB0) for the AMPEL360 BW
 
 ## 11. References
 
-- [LC-11_0010-08 — Mission and Payload Assumptions](./LC-11_0010-08_Mission_Payload_Assumptions.md)
-- [LC-11_0010-10 — Performance Assumptions](./LC-11_0010-10_Performance_Assumptions.md)
-- [LC-11_0010-12 — Baseline A Definition](./LC-11_0010-12_BaselineA_Definition.md)
+- [LC-11_0000-08 — Mission and Payload Assumptions](./LC-11_0000-08_Mission_Payload_Assumptions.md)
+- [LC-11_0000-10 — Performance Assumptions](./LC-11_0000-10_Performance_Assumptions.md)
+- [LC-11_0000-12 — Baseline A Definition](./LC-11_0000-12_BaselineA_Definition.md)
 
 ---
 

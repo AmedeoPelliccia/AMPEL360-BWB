@@ -1,6 +1,6 @@
-# LC-11_0010-03 — Concept Evolution Log
+# LC-11_0000-03 — Concept Evolution Log
 
-**UTCS Node:** LC-11_0010-03  
+**UTCS Node:** LC-11_0000-03  
 **Document Type:** Decision History  
 **Status:** Living Document  
 **Version:** 1.0  
@@ -389,10 +389,10 @@ The following decisions have been deferred pending further study or external inp
 
 ## 6. Document References
 
-- [LC-11_0010-01 — Concept Overview](./LC-11_0010-01_Concept_Overview.md)
-- [LC-11_0010-02 — Architecture Rationale](./LC-11_0010-02_Architecture_Rationale.md)
-- [LC-11_0010-12 — Baseline A Definition](./LC-11_0010-12_BaselineA_Definition.md)
-- [LC-11_0010-27 — Concept Decision Log](./LC-11_0010-27_Concept_Decision_Log.md)
+- [LC-11_0000-01 — Concept Overview](./LC-11_0000-01_Concept_Overview.md)
+- [LC-11_0000-02 — Architecture Rationale](./LC-11_0000-02_Architecture_Rationale.md)
+- [LC-11_0000-12 — Baseline A Definition](./LC-11_0000-12_BaselineA_Definition.md)
+- [LC-11_0000-27 — Concept Decision Log](./LC-11_0000-27_Concept_Decision_Log.md)
 
 ---
 
