@@ -21,7 +21,7 @@ The project follows a comprehensive three-pillar lifecycle framework aligned wit
 
 ### **[LC-1 DEVELOPMENT](./LC-1_00-GENERAL_DEVELOPMENT/)**
 Engineering design, safety analysis, requirements, detailed design, interfaces, analysis, and V&V.
-- [LC-11 Research & Concept Development](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_00-GENERAL_RESEARCH-CONCEPT/)
+- [LC-11 Research & Concept Development](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT/)
 - [LC-12 Safety Analysis (ARP4761)](./LC-1_00-GENERAL_DEVELOPMENT/LC-12_00-GENERAL_SAFETY-ANALYSIS/)
 - [LC-13 Requirements Engineering](./LC-1_00-GENERAL_DEVELOPMENT/LC-13_00-GENERAL_REQUIREMENTS/)
 - [LC-14 Design Engineering](./LC-1_00-GENERAL_DEVELOPMENT/LC-14_00-GENERAL_DESIGN/)

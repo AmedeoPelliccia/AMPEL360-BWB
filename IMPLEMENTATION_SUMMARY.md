@@ -24,7 +24,7 @@ This implementation delivers a complete, rigorous organization of the AMPEL360 E
 **Directory Structure:**
 ```
 LC-1_00-GENERAL_DEVELOPMENT/
-├── LC-11_00-GENERAL_RESEARCH-CONCEPT/
+├── LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT/
 ├── LC-12_00-GENERAL_SAFETY-ANALYSIS/
 ├── LC-13_00-GENERAL_REQUIREMENTS/
 ├── LC-14_00-GENERAL_DESIGN/

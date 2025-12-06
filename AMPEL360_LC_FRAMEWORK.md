@@ -59,7 +59,7 @@ Modern aerospace program structure:
 
 ### Sub-Phases
 
-#### [LC-1.1 Research & Concept Development](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_00-GENERAL_RESEARCH-CONCEPT/)
+#### [LC-1.1 Research & Concept Development](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT/)
 - Ideation and prompt-based conceptual generation
 - Architecture trades and mission envelopes
 - Environmental impact and sustainability targets

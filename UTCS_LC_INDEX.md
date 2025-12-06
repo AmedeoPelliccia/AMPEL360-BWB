@@ -35,8 +35,8 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 
 ### <span style="color:#0066cc">LC-11</span> Research & Concept Development
 
-**Directory:** `LC-11_00-GENERAL_RESEARCH-CONCEPT/`  
-**RACI Matrix:** [LC-11 RACI](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_00-GENERAL_RESEARCH-CONCEPT/RACI_MATRIX.md)  
+**Directory:** `LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT/`  
+**RACI Matrix:** [LC-11 RACI](./LC-1_00-GENERAL_DEVELOPMENT/LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT/RACI_MATRIX.md)  
 **Legacy Reference:** `LC-1.1`
 
 **Primary Audiences:**
@@ -296,7 +296,7 @@ This index provides a complete reference for all AMPEL360 lifecycle stages with:
 
 | Legacy | UTCS | Directory | Primary Focus |
 |--------|------|-----------|---------------|
-| LC-1.1 | <span style="color:#0066cc">LC-11</span> | LC-11_00-GENERAL_RESEARCH-CONCEPT | Research & Concept |
+| LC-1.1 | <span style="color:#0066cc">LC-11</span> | LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT | Research & Concept |
 | LC-1.2 | <span style="color:#0066cc">LC-12</span> | LC-12_00-GENERAL_SAFETY-ANALYSIS | Safety Analysis |
 | LC-1.3 | <span style="color:#0066cc">LC-13</span> | LC-13_00-GENERAL_REQUIREMENTS | Requirements |
 | LC-1.4 | <span style="color:#0066cc">LC-14</span> | LC-14_00-GENERAL_DESIGN | Design |
