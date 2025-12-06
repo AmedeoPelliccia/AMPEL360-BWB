@@ -1,4 +1,4 @@
-# LC-11_0000-GENERAL_Q100
+# LC-11_ATA-0000-GENERAL_Q100
 
 ## Purpose
 Q100-specific research and concept development artifacts for the AMPEL360 BWB aircraft program, organized according to the **UTCS (Universal Traceability and Configuration System)** naming convention.
@@ -18,8 +18,8 @@ LC-{STAGE}{SUBSTAGE}_{ATAIDX}-{ATADESC}_{FUNC}_V{x}R{y}.ext
 ```
 
 **Example:**
-- Directory: `LC-11_0000-GENERAL_Q100-CONCEPT-BASELINES/`
-- File: `LC-11_0000-GENERAL_Q100-CONCEPT-BL-OVERVIEW_V1R0.md`
+- Directory: `LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BASELINES/`
+- File: `LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BL-OVERVIEW_V1R0.md`
 
 Where:
 - **`LC-11`** = Life Cycle Stage **1**, Substage **1** (Research & Concept)
@@ -64,20 +64,20 @@ LC-11_00-10-03_Concept_Evolution_Log_V1R0.md
 
 | UTCS Node | Directory Name | Focus | Primary Audience |
 |-----------|----------------|-------|------------------|
-| 0010 | LC-11_0000-GENERAL_Q100-CONCEPT-BASELINES/ | Q100 aircraft concept baselines and preliminary designs | Chief engineers, concept designers, aero/structures leads, programme architecture |
-| 0011 | LC-11_0000-GENERAL_Q100-MISSION-USECASES/ | Mission profiles, route scenarios, airline and airport use cases | Network planning, airline product teams, ops engineering, performance specialists |
-| 0012 | LC-11_0000-GENERAL_Q100-CONFIGURATIONS/ | Q100 configuration options: aero layouts, cabin layouts, propulsion and energy architectures | Configuration management, cabin/product design, propulsion/energy architects |
-| 0013 | LC-11_0000-GENERAL_Q100-PARAM-EXPLORATION/ | Parametric sweeps and design-space exploration | Performance & sizing engineers, aero/structures loads, energy & weight teams |
-| 0014 | LC-11_0000-GENERAL_Q100-TRADE-STUDIES/ | Formal trade studies comparing alternative concepts/architectures | Architecture boards, decision forums, programme management, key domain leads |
-| 0015 | LC-11_0000-GENERAL_Q100-CONSTRAINTS-ENVELOPES/ | Q100 constraints diagrams and envelopes | Performance engineers, loads & structures, weight & balance, safety & certification pre-studies |
-| 0016 | LC-11_0000-GENERAL_Q100-REQ-SEED/ | Seed requirements extracted from concept work | Systems engineering, requirements engineering, certification & safety pre-studies |
-| 0017 | LC-11_0000-GENERAL_Q100-RISK-RESEARCH/ | Early risk identification and exploratory risk notes | Programme risk owners, safety & certification, technology roadmapping, industrialization |
-| 0018 | LC-11_0000-GENERAL_Q100-REVIEWS/ | Minutes, action logs, and decision records from concept reviews | Review boards, chief engineers, PMO, governance and partners |
-| — | LC-11_0000-GENERAL_Q100-ARCHIVES/ | Archived snapshots of obsolete or superseded Q100 concept artefacts | All domains needing historical traceability and decision provenance |
+| 0010 | LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BASELINES/ | Q100 aircraft concept baselines and preliminary designs | Chief engineers, concept designers, aero/structures leads, programme architecture |
+| 0011 | LC-11_ATA-0000-GENERAL_Q100-MISSION-USECASES/ | Mission profiles, route scenarios, airline and airport use cases | Network planning, airline product teams, ops engineering, performance specialists |
+| 0012 | LC-11_ATA-0000-GENERAL_Q100-CONFIGURATIONS/ | Q100 configuration options: aero layouts, cabin layouts, propulsion and energy architectures | Configuration management, cabin/product design, propulsion/energy architects |
+| 0013 | LC-11_ATA-0000-GENERAL_Q100-PARAM-EXPLORATION/ | Parametric sweeps and design-space exploration | Performance & sizing engineers, aero/structures loads, energy & weight teams |
+| 0014 | LC-11_ATA-0000-GENERAL_Q100-TRADE-STUDIES/ | Formal trade studies comparing alternative concepts/architectures | Architecture boards, decision forums, programme management, key domain leads |
+| 0015 | LC-11_ATA-0000-GENERAL_Q100-CONSTRAINTS-ENVELOPES/ | Q100 constraints diagrams and envelopes | Performance engineers, loads & structures, weight & balance, safety & certification pre-studies |
+| 0016 | LC-11_ATA-0000-GENERAL_Q100-REQ-SEED/ | Seed requirements extracted from concept work | Systems engineering, requirements engineering, certification & safety pre-studies |
+| 0017 | LC-11_ATA-0000-GENERAL_Q100-RISK-RESEARCH/ | Early risk identification and exploratory risk notes | Programme risk owners, safety & certification, technology roadmapping, industrialization |
+| 0018 | LC-11_ATA-0000-GENERAL_Q100-REVIEWS/ | Minutes, action logs, and decision records from concept reviews | Review boards, chief engineers, PMO, governance and partners |
+| — | LC-11_ATA-0000-GENERAL_Q100-ARCHIVES/ | Archived snapshots of obsolete or superseded Q100 concept artefacts | All domains needing historical traceability and decision provenance |
 
 ---
 
-### 0010 — LC-11_0000-GENERAL_Q100-CONCEPT-BASELINES/
+### 0010 — LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BASELINES/
 **Aircraft Concept**
 
 Q100 aircraft concept baselines and preliminary designs (geometry, layout, capacity, performance-level sketches).
@@ -91,13 +91,13 @@ Q100 aircraft concept baselines and preliminary designs (geometry, layout, capac
 - Design rationale logs
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-CONCEPT-BL-OVERVIEW_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-CONCEPT-BL-AERO-SKETCH_V1R0.svg`
-- `LC-11_0000-GENERAL_Q100-CONCEPT-BL-VOLUME-SKETCH_V1R0.svg`
+- `LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BL-OVERVIEW_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BL-AERO-SKETCH_V1R0.svg`
+- `LC-11_ATA-0000-GENERAL_Q100-CONCEPT-BL-VOLUME-SKETCH_V1R0.svg`
 
 ---
 
-### 0011 — LC-11_0000-GENERAL_Q100-MISSION-USECASES/
+### 0011 — LC-11_ATA-0000-GENERAL_Q100-MISSION-USECASES/
 **Mission & Use Cases**
 
 Mission profiles, route scenarios, airline and airport use cases for Q100 operations.
@@ -111,12 +111,12 @@ Mission profiles, route scenarios, airline and airport use cases for Q100 operat
 - Passenger and cargo use cases
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-MISSION-REGIONAL_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-USECASE-AIRLINE-OPS_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-MISSION-REGIONAL_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-USECASE-AIRLINE-OPS_V1R0.md`
 
 ---
 
-### 0012 — LC-11_0000-GENERAL_Q100-CONFIGURATIONS/
+### 0012 — LC-11_ATA-0000-GENERAL_Q100-CONFIGURATIONS/
 **Configurations**
 
 Q100 configuration options: aero layouts, cabin layouts, propulsion and energy architectures.
@@ -130,13 +130,13 @@ Q100 configuration options: aero layouts, cabin layouts, propulsion and energy a
 - Configuration comparison notes
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-CONFIG-BWB-BASELINE_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-CONFIG-CABIN-2-3-2_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-CONFIG-ENERGY-ARCH_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-CONFIG-BWB-BASELINE_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-CONFIG-CABIN-2-3-2_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-CONFIG-ENERGY-ARCH_V1R0.md`
 
 ---
 
-### 0013 — LC-11_0000-GENERAL_Q100-PARAM-EXPLORATION/
+### 0013 — LC-11_ATA-0000-GENERAL_Q100-PARAM-EXPLORATION/
 **Parametric Exploration**
 
 Parametric sweeps and design-space exploration (geometry, mass, performance, energy sizing).
@@ -150,13 +150,13 @@ Parametric sweeps and design-space exploration (geometry, mass, performance, ene
 - Sensitivity plots (referenced, not stored as binaries)
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-PARAM-WING-SWEEP_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-PARAM-MASS-DISTRIBUTION_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-PARAM-TANK-SIZING_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-PARAM-WING-SWEEP_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-PARAM-MASS-DISTRIBUTION_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-PARAM-TANK-SIZING_V1R0.md`
 
 ---
 
-### 0014 — LC-11_0000-GENERAL_Q100-TRADE-STUDIES/
+### 0014 — LC-11_ATA-0000-GENERAL_Q100-TRADE-STUDIES/
 **Trade Studies**
 
 Formal trade studies comparing alternative concepts/architectures (BWB variants, H₂/battery ratios, systems options).
@@ -170,13 +170,13 @@ Formal trade studies comparing alternative concepts/architectures (BWB variants,
 - Trade conclusion records
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-TRADE-PROP-ARCH_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-TRADE-H2-BAT-RATIO_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-TRADE-CONTROL-AUTH_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-TRADE-PROP-ARCH_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-TRADE-H2-BAT-RATIO_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-TRADE-CONTROL-AUTH_V1R0.md`
 
 ---
 
-### 0015 — LC-11_0000-GENERAL_Q100-CONSTRAINTS-ENVELOPES/
+### 0015 — LC-11_ATA-0000-GENERAL_Q100-CONSTRAINTS-ENVELOPES/
 **Constraints & Envelopes**
 
 Q100 constraints diagrams and envelopes (field performance, payload–range, CG, energy, structural limits).
@@ -190,13 +190,13 @@ Q100 constraints diagrams and envelopes (field performance, payload–range, CG,
 - Associated assumptions logs
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-CONSTR-TAKEOFF_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-CONSTR-CG-ENVELOPE_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-CONSTR-ENERGY-BUDGET_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-CONSTR-TAKEOFF_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-CONSTR-CG-ENVELOPE_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-CONSTR-ENERGY-BUDGET_V1R0.md`
 
 ---
 
-### 0016 — LC-11_0000-GENERAL_Q100-REQ-SEED/
+### 0016 — LC-11_ATA-0000-GENERAL_Q100-REQ-SEED/
 **Requirements Seed**
 
 Seed requirements extracted from concept work (airframe, propulsion, systems, operations constraints).
@@ -210,13 +210,13 @@ Seed requirements extracted from concept work (airframe, propulsion, systems, op
 - Early compliance thoughts
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-REQSEED-AIRFRAME_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-REQSEED-PROPULSION_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-REQSEED-ECS_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-REQSEED-AIRFRAME_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-REQSEED-PROPULSION_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-REQSEED-ECS_V1R0.md`
 
 ---
 
-### 0017 — LC-11_0000-GENERAL_Q100-RISK-RESEARCH/
+### 0017 — LC-11_ATA-0000-GENERAL_Q100-RISK-RESEARCH/
 **Risk Research**
 
 Early risk identification and exploratory risk notes (technology, safety, certification, industrialization).
@@ -230,13 +230,13 @@ Early risk identification and exploratory risk notes (technology, safety, certif
 - Certification/industrialization risk narratives
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-RISK-H2-LEAK_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-RISK-STRUCT-NONLINEAR_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-RISK-NN-FAILSAFE_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-RISK-H2-LEAK_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-RISK-STRUCT-NONLINEAR_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-RISK-NN-FAILSAFE_V1R0.md`
 
 ---
 
-### 0018 — LC-11_0000-GENERAL_Q100-REVIEWS/
+### 0018 — LC-11_ATA-0000-GENERAL_Q100-REVIEWS/
 **Reviews**
 
 Minutes, action logs, and decision records from concept reviews (MCRs, internal and partner reviews).
@@ -250,12 +250,12 @@ Minutes, action logs, and decision records from concept reviews (MCRs, internal 
 - Review packages indexes (pointing to artefacts in 0010–0017)
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-REVIEW-MCR1-SUMMARY_V1R0.md`
-- `LC-11_0000-GENERAL_Q100-REVIEW-MCR1-ACTIONS_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-REVIEW-MCR1-SUMMARY_V1R0.md`
+- `LC-11_ATA-0000-GENERAL_Q100-REVIEW-MCR1-ACTIONS_V1R0.md`
 
 ---
 
-### LC-11_0000-GENERAL_Q100-ARCHIVES/
+### LC-11_ATA-0000-GENERAL_Q100-ARCHIVES/
 **Archives**
 
 Archived snapshots of obsolete or superseded Q100 concept artefacts (frozen baselines, deprecated studies).
@@ -269,7 +269,7 @@ Archived snapshots of obsolete or superseded Q100 concept artefacts (frozen base
 - Archive index files
 
 **Example Files:**
-- `LC-11_0000-GENERAL_Q100-ARCHIVE-2025-12-05_V1R0.zip`
+- `LC-11_ATA-0000-GENERAL_Q100-ARCHIVE-2025-12-05_V1R0.zip`
 
 ---
 

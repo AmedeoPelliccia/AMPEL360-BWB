@@ -88,7 +88,7 @@ This document defines the **Responsible, Accountable, Consulted, and Informed (R
 
 ### Folder Structure
 ```
-LC-11_00-GENERAL_RESEARCH-CONCEPT/
+LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT/
 ├── RACI_MATRIX.md (this file)
 ├── README.md
 ├── Concept_Baselines/

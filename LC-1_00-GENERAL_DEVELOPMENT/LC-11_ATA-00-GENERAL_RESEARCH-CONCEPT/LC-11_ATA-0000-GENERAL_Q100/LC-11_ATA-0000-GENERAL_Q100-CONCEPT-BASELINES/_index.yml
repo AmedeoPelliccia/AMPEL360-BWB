@@ -158,8 +158,8 @@ keywords:
 
 references:
   internal:
-    - "LC-11_0000-GENERAL_Q100"
-    - "LC-11_00-GENERAL_RESEARCH-CONCEPT"
+    - "LC-11_ATA-0000-GENERAL_Q100"
+    - "LC-11_ATA-00-GENERAL_RESEARCH-CONCEPT"
     - "UTCS-LC Naming Rules"
   external:
     - "ARP4754A"
